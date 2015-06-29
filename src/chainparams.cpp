@@ -84,7 +84,7 @@ public:
         assert(hashGenesisBlock == uint256("0x000005112eeaf12c018c055a02050d931a137d95b0ab12c81c42c18f3ed29e1e"));
         assert(genesis.hashMerkleRoot == uint256("0xe541e5c7ded4095808d96f122a3bb7ee79caf6d6d4984538cb879ee036faf91a"));
 
-        vSeeds.push_back(CDNSSeedData("mobicoin.info", "mobiseed.mobicoinbank.info"));
+        vSeeds.push_back(CDNSSeedData("mobicoin.info", "mobiseed.unpaybank.info"));
         //vSeeds.push_back(CDNSSeedData("darkcoin.qa", "dnsseed.darkcoin.qa"));
         //vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
         //vSeeds.push_back(CDNSSeedData("mobicoinpay.io", "dnsseed.mobicoinpay.io"));
@@ -175,7 +175,7 @@ public:
         // vSeeds.push_back(CDNSSeedData("darkcoin.io",  "testnet-seed.darkcoin.io"));
         // vSeeds.push_back(CDNSSeedData("darkcoin.qa", "testnet-seed.darkcoin.qa"));
         // vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
-        vSeeds.push_back(CDNSSeedData("mobicoin.info",  "test-mobiseed.mobicoinbank.info"));
+        vSeeds.push_back(CDNSSeedData("mobicoin.info",  "test-mobiseed.unpaybank.info"));
  
         base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet mobicoin addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 19);                    // Testnet mobicoin script addresses start with '8' or '9'
