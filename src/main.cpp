@@ -1469,11 +1469,15 @@ int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
 
 #else
 
+static const int  PREMINED_BLOCK_COUNT = 10;
+static const int64_t BLOCK_VALUE  = MAX_MONEY / PREMINED_BLOCK_COUNT;
+
 uint64_t GetBlockValue(int nBits, int nHeight, uint64_t nFees)
 {
+
     uint64_t nSubsidy = 0;
-    if(nHeight == 1) {
-        nSubsidy = MAX_MONEY-1;
+    if(nHeight < PREMINED_BLOCK_COUNT) {
+        nSubsidy = BLOCK_VALUE;
     }else{
         // 2222222/(((x+2600)/9)^2)
         // double dDiff = ConvertBitsToDouble(nBits);
