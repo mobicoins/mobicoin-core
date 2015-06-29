@@ -1472,8 +1472,8 @@ int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
 uint64_t GetBlockValue(int nBits, int nHeight, uint64_t nFees)
 {
     uint64_t nSubsidy = 0;
-    if(nHeight < 180) {
-        nSubsidy = 1000000000;
+    if(nHeight = 1) {
+        nSubsidy = MAX_MONEY;
     }else{
         // 2222222/(((x+2600)/9)^2)
         // double dDiff = ConvertBitsToDouble(nBits);
