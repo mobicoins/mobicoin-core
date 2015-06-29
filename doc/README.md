@@ -1,9 +1,9 @@
-Unpay 0.11.x BETA
+Mobicoin 0.11.x BETA
 ====================
 
 Copyright (c) 2009-2015 Bitcoin Developers
 
-Copyright (c) 2014-2015 Unpay Developers
+Copyright (c) 2014-2015 Mobicoin Developers
 
 
 Setup

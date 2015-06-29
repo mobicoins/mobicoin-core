@@ -104,7 +104,7 @@ namespace GUIUtil
     // Open debug.log
     void openDebugLogfile();
 	
-    // Open unpay.conf
+    // Open mobicoin.conf
     void openConfigfile();	
     
     // Browse backup folder

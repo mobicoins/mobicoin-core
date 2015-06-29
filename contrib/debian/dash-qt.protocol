@@ -1,6 +1,6 @@
 [Protocol]
-exec=unpay-qt '%u'
-protocol=unpay
+exec=mobicoin-qt '%u'
+protocol=mobicoin
 input=none
 output=none
 helper=true

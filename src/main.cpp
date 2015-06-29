@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Unpay developers
+// Copyright (c) 2014-2015 The Mobicoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -33,7 +33,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Unpay cannot be compiled without assertions."
+# error "Mobicoin cannot be compiled without assertions."
 #endif
 
 //
@@ -1522,8 +1522,8 @@ uint64_t GetMasternodePayment(int nHeight, uint64_t blockValue)
     return ret;
 }
 
-static const int64_t nTargetTimespan = 24 * 60 * 60; // Unpay: 1 day
-static const int64_t nTargetSpacing = 2.5 * 60; // Unpay: 2.5 minutes
+static const int64_t nTargetTimespan = 24 * 60 * 60; // Mobicoin: 1 day
+static const int64_t nTargetSpacing = 2.5 * 60; // Mobicoin: 2.5 minutes
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing; // 576 blocks
 
 //
@@ -1607,7 +1607,7 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBloc
 }
 
 unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const CBlockHeader *pblock) {
-    /* current difficulty formula, unpay - DarkGravity v3, written by Evan Duffield - evan@unpaypay.io */
+    /* current difficulty formula, mobicoin - DarkGravity v3, written by Evan Duffield - evan@mobicoinpay.io */
     const CBlockIndex *BlockLastSolved = pindexLast;
     const CBlockIndex *BlockReading = pindexLast;
     int64_t nActualTimespan = 0;
@@ -1706,7 +1706,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
                 return pindexLast->nBits;
             }
 
-            // Unpay: This fixes an issue where a 51% attack can change difficulty at will.
+            // Mobicoin: This fixes an issue where a 51% attack can change difficulty at will.
             // Go back the full period unless it's the first retarget after genesis.
             // Code courtesy of Art Forz.
             int blockstogoback = nInterval-1;
@@ -2183,7 +2183,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("unpay-scriptch");
+    RenameThread("mobicoin-scriptch");
     scriptcheckqueue.Thread();
 }
 

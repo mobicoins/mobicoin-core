@@ -6,7 +6,7 @@
 #define BITCOIN_NETBASE_H
 
 #if defined(HAVE_CONFIG_H)
-#include "unpay-config.h"
+#include "mobicoin-config.h"
 #endif
 
 #include "compat.h"

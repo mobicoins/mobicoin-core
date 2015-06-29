@@ -32,4 +32,4 @@ import os
 
 
 for d in dirs:
-	os.system("git mv "+ d + " unpay"+d[4:])
+	os.system("git mv "+ d + " mobicoin"+d[4:])

@@ -1,37 +1,37 @@
-Unpay Core staging tree 0.11
+Mobicoin Core staging tree 0.11
 ===============================
 
-http://www.unpaypay.io
+http://www.mobicoinpay.io
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
-Copyright (c) 2014-2015 Unpay Core Developers
+Copyright (c) 2014-2015 Mobicoin Core Developers
 
 
-What is Unpay?
+What is Mobicoin?
 ----------------
 
-Unpay is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Unpay uses peer-to-peer technology
+Mobicoin is an experimental new digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. Mobicoin uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Unpay Core is the name of open
+are carried out collectively by the network. Mobicoin Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Unpay Core software, see http://www.unpaypay.io/downloads.
+the Mobicoin Core software, see http://www.mobicoinpay.io/downloads.
 
 
 License
 -------
 
-Unpay Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Mobicoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
 
 Building process
 -----------------
 
-**compiling Unpay from git**
+**compiling Mobicoin from git**
 
 Use the autogen script to prepare the build environment.
 
@@ -42,7 +42,7 @@ Use the autogen script to prepare the build environment.
 **precompiled binaries**
 
 Precompiled binaries are available at github, see
-https://github.com/unpayproject/unpay-binaries
+https://github.com/mobicoinproject/mobicoin-binaries
 
 Always verify the signatures and checksums.
 
@@ -68,7 +68,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play unpays" on the test network, if you
+Run with the -testnet option to run with "play mobicoins" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.
@@ -77,7 +77,7 @@ that run in -regtest mode.
 
 **DEBUG_LOCKORDER**
 
-Unpay Core is a multithreaded application, and deadlocks or other multithreading bugs
+Mobicoin Core is a multithreaded application, and deadlocks or other multithreading bugs
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of what locks
 are held, and adds warning to the debug.log file if inconsistencies are detected.

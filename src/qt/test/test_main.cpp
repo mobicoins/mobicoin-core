@@ -1,6 +1,6 @@
-#include "unpay-config.h"
+#include "mobicoin-config.h"
 #if defined(HAVE_CONFIG_H)
-#include "unpay-config.h"
+#include "mobicoin-config.h"
 #endif
 
 #ifdef ENABLE_WALLET

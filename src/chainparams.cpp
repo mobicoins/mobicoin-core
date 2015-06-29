@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Unpay developers
+// Copyright (c) 2014-2015 The Mobicoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -60,7 +60,7 @@ public:
         vAlertPubKey = ParseHex("048240a8748a80a286b270ba126705ced4f2ce5a7847b3610ea3c06513150dade2a8512ed5ea86320824683fc0818f0ac019214973e677acd1244f6d0571fc5103");
         nDefaultPort = 4448;
         nRPCPort = 4449;
-        bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);  // Unpay starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);  // Mobicoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
 
         // Genesis block
@@ -84,17 +84,17 @@ public:
         assert(hashGenesisBlock == uint256("0x000005112eeaf12c018c055a02050d931a137d95b0ab12c81c42c18f3ed29e1e"));
         assert(genesis.hashMerkleRoot == uint256("0xe541e5c7ded4095808d96f122a3bb7ee79caf6d6d4984538cb879ee036faf91a"));
 
-        vSeeds.push_back(CDNSSeedData("mobicoin.info", "mobiseed.unpaybank.info"));
+        vSeeds.push_back(CDNSSeedData("mobicoin.info", "mobiseed.mobicoinbank.info"));
         //vSeeds.push_back(CDNSSeedData("darkcoin.qa", "dnsseed.darkcoin.qa"));
         //vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
-        //vSeeds.push_back(CDNSSeedData("unpaypay.io", "dnsseed.unpaypay.io"));
+        //vSeeds.push_back(CDNSSeedData("mobicoinpay.io", "dnsseed.mobicoinpay.io"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of( 76);                    // Unpay addresses start with 'X'
-        base58Prefixes[SCRIPT_ADDRESS] = list_of( 16);                    // Unpay script addresses start with '7'
-        base58Prefixes[SECRET_KEY] =     list_of(204);                    // Unpay private keys start with '7' or 'X'
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x02)(0xFE)(0x52)(0xF8); // Unpay BIP32 pubkeys start with 'drkv'
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x02)(0xFE)(0x52)(0xCC); // Unpay BIP32 prvkeys start with 'drkp'
-        base58Prefixes[EXT_COIN_TYPE]  = list_of(0x80000005);             // Unpay BIP44 coin type is '5'
+        base58Prefixes[PUBKEY_ADDRESS] = list_of( 76);                    // Mobicoin addresses start with 'X'
+        base58Prefixes[SCRIPT_ADDRESS] = list_of( 16);                    // Mobicoin script addresses start with '7'
+        base58Prefixes[SECRET_KEY] =     list_of(204);                    // Mobicoin private keys start with '7' or 'X'
+        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x02)(0xFE)(0x52)(0xF8); // Mobicoin BIP32 pubkeys start with 'drkv'
+        base58Prefixes[EXT_SECRET_KEY] = list_of(0x02)(0xFE)(0x52)(0xCC); // Mobicoin BIP32 prvkeys start with 'drkp'
+        base58Prefixes[EXT_COIN_TYPE]  = list_of(0x80000005);             // Mobicoin BIP44 coin type is '5'
 
         // Convert the pnSeeds array into usable address objects.
         for (unsigned int i = 0; i < ARRAYLEN(pnSeed); i++)
@@ -169,20 +169,20 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        /*vSeeds.push_back(CDNSSeedData("unpaypay.io", "testnet-seed.unpaypay.io"));
-        vSeeds.push_back(CDNSSeedData("unpay.qa", "testnet-seed.unpay.qa"));
+        /*vSeeds.push_back(CDNSSeedData("mobicoinpay.io", "testnet-seed.mobicoinpay.io"));
+        vSeeds.push_back(CDNSSeedData("mobicoin.qa", "testnet-seed.mobicoin.qa"));
         *///legacy seeders
         // vSeeds.push_back(CDNSSeedData("darkcoin.io",  "testnet-seed.darkcoin.io"));
         // vSeeds.push_back(CDNSSeedData("darkcoin.qa", "testnet-seed.darkcoin.qa"));
         // vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
-        vSeeds.push_back(CDNSSeedData("mobicoin.info",  "test-mobiseed.unpaybank.info"));
+        vSeeds.push_back(CDNSSeedData("mobicoin.info",  "test-mobiseed.mobicoinbank.info"));
  
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet unpay addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = list_of( 19);                    // Testnet unpay script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet mobicoin addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = list_of( 19);                    // Testnet mobicoin script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY]     = list_of(239);                    // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x3a)(0x80)(0x61)(0xa0); // Testnet unpay BIP32 pubkeys start with 'DRKV'
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x3a)(0x80)(0x58)(0x37); // Testnet unpay BIP32 prvkeys start with 'DRKP'
-        base58Prefixes[EXT_COIN_TYPE]  = list_of(0x80000001);             // Testnet unpay BIP44 coin type is '5' (All coin's testnet default)
+        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x3a)(0x80)(0x61)(0xa0); // Testnet mobicoin BIP32 pubkeys start with 'DRKV'
+        base58Prefixes[EXT_SECRET_KEY] = list_of(0x3a)(0x80)(0x58)(0x37); // Testnet mobicoin BIP32 prvkeys start with 'DRKP'
+        base58Prefixes[EXT_COIN_TYPE]  = list_of(0x80000001);             // Testnet mobicoin BIP44 coin type is '5' (All coin's testnet default)
     }
     virtual Network NetworkID() const { return CChainParams::TESTNET; }
 };

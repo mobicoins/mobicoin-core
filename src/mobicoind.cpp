@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Unpay developers
+// Copyright (c) 2014-2015 The Mobicoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -22,8 +22,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Unpay (http://www.unpaypay.io/),
- * which enables instant payments to anyone, anywhere in the world. Unpay uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called Mobicoin (http://www.mobicoinpay.io/),
+ * which enables instant payments to anyone, anywhere in the world. Mobicoin uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
         //
         // Parameters
         //
-        // If Qt is used, parameters/unpay.conf are parsed in qt/unpay.cpp's main()
+        // If Qt is used, parameters/mobicoin.conf are parsed in qt/mobicoin.cpp's main()
         ParseParameters(argc, argv);
         if (!boost::filesystem::is_directory(GetDataDir(false)))
         {
@@ -95,14 +95,14 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to unpayd / RPC client
-            std::string strUsage = _("Unpay Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
+            // First part of help message is specific to mobicoind / RPC client
+            std::string strUsage = _("Mobicoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  unpayd [options]                     " + _("Start Unpay Core Daemon") + "\n" +
-                _("Usage (deprecated, use unpay-cli):") + "\n" +
-                  "  unpayd [options] <command> [params]  " + _("Send command to Unpay Core") + "\n" +
-                  "  unpayd [options] help                " + _("List commands") + "\n" +
-                  "  unpayd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  mobicoind [options]                     " + _("Start Mobicoin Core Daemon") + "\n" +
+                _("Usage (deprecated, use mobicoin-cli):") + "\n" +
+                  "  mobicoind [options] <command> [params]  " + _("Send command to Mobicoin Core") + "\n" +
+                  "  mobicoind [options] help                " + _("List commands") + "\n" +
+                  "  mobicoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
             strUsage += "\n" + HelpMessageCli(false);
@@ -114,7 +114,7 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "unpay:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "mobicoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)
@@ -126,7 +126,7 @@ bool AppInit(int argc, char* argv[])
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon)
         {
-            fprintf(stdout, "Unpay server starting\n");
+            fprintf(stdout, "Mobicoin server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -186,7 +186,7 @@ int main(int argc, char* argv[])
 
     bool fRet = false;
 
-    // Connect unpayd signal handlers
+    // Connect mobicoind signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);

@@ -3,20 +3,20 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Unpay Core</source>
-        <translation>A propos de Unpay Core</translation>
+        <source>About Mobicoin Core</source>
+        <translation>A propos de Mobicoin Core</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Unpay Core&lt;/b&gt; version</source>
-        <translation>Version de &lt;b&gt;Unpay Core&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Mobicoin Core&lt;/b&gt; version</source>
+        <translation>Version de &lt;b&gt;Mobicoin Core&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="94"/>
         <source>Copyright &amp;copy; 2009-2014 The Bitcoin Core developers.
-Copyright &amp;copy; 2014-YYYY The Unpay Core developers.</source>
+Copyright &amp;copy; 2014-YYYY The Mobicoin Core developers.</source>
         <translation>Droits réservés &amp;copy; 2009-2014 The Bitcoin Core developers.
-Droits réservés &amp;copy; 2014-YYYY The Unpay Core developers.</translation>
+Droits réservés &amp;copy; 2014-YYYY The Mobicoin Core developers.</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="111"/>
@@ -46,8 +46,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="31"/>
-        <source>The Unpay Core developers</source>
-        <translation>Les développeurs Unpay Core</translation>
+        <source>The Mobicoin Core developers</source>
+        <translation>Les développeurs Mobicoin Core</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="43"/>
@@ -135,13 +135,13 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="65"/>
-        <source>These are your Unpay addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ce sont vos adresses Unpay pour l&apos;envoi de paiements. Vérifiez toujours le montant et l&apos;adresse de réception avant l&apos;envoi de pièces.</translation>
+        <source>These are your Mobicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ce sont vos adresses Mobicoin pour l&apos;envoi de paiements. Vérifiez toujours le montant et l&apos;adresse de réception avant l&apos;envoi de pièces.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="69"/>
-        <source>These are your Unpay addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ce sont vos adresses Unpay pour la réception de paiements. Il est recommandé d&apos;utiliser une nouvelle adresse pour chaque transaction.</translation>
+        <source>These are your Mobicoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ce sont vos adresses Mobicoin pour la réception de paiements. Il est recommandé d&apos;utiliser une nouvelle adresse pour chaque transaction.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="75"/>
@@ -276,8 +276,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="113"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR UNP&lt;/b&gt;!</source>
-        <translation>Attention : Si vous chiffrez votre portefeuille et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS UNP&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MCP&lt;/b&gt;!</source>
+        <translation>Attention : Si vous chiffrez votre portefeuille et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS MCP&lt;/b&gt; !</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="113"/>
@@ -292,8 +292,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="124"/>
-        <source>Unpay will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your unpays from being stolen by malware infecting your computer.</source>
-        <translation>Unpay va à présent se fermer pour terminer le chiffrement. N&apos;oubliez pas que le chiffrement de votre portefeuille n&apos;est pas une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>Mobicoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your mobicoins from being stolen by malware infecting your computer.</source>
+        <translation>Mobicoin va à présent se fermer pour terminer le chiffrement. N&apos;oubliez pas que le chiffrement de votre portefeuille n&apos;est pas une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="128"/>
@@ -352,8 +352,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Unpay Core</source>
-        <translation>Unpay Core</translation>
+        <source>Mobicoin Core</source>
+        <translation>Mobicoin Core</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="85"/>
@@ -388,8 +388,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="235"/>
-        <source>Send coins to a Unpay address</source>
-        <translation>Envoyer des pièces sur une adresse Unpay</translation>
+        <source>Send coins to a Mobicoin address</source>
+        <translation>Envoyer des pièces sur une adresse Mobicoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -398,8 +398,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="242"/>
-        <source>Request payments (generates QR codes and unpay: URIs)</source>
-        <translation>Demande de paiements (Générer des QR code et des URIs unpay)</translation>
+        <source>Request payments (generates QR codes and mobicoin: URIs)</source>
+        <translation>Demande de paiements (Générer des QR code et des URIs mobicoin)</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="248"/>
@@ -424,13 +424,13 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     <message>
         <location filename="../bitcoingui.cpp" line="271"/>
         <location filename="../bitcoingui.cpp" line="273"/>
-        <source>&amp;About Unpay Core</source>
-        <translation>À propos du noyau Unpay</translation>
+        <source>&amp;About Mobicoin Core</source>
+        <translation>À propos du noyau Mobicoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="274"/>
-        <source>Show information about Unpay</source>
-        <translation>Voir des informations à propos de Unpay</translation>
+        <source>Show information about Mobicoin</source>
+        <translation>Voir des informations à propos de Mobicoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="277"/>
@@ -450,8 +450,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="284"/>
-        <source>Modify configuration options for Unpay</source>
-        <translation>Modifier les options de configuration pour Unpay</translation>
+        <source>Modify configuration options for Mobicoin</source>
+        <translation>Modifier les options de configuration pour Mobicoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="287"/>
@@ -516,8 +516,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="303"/>
-        <source>Sign messages with your Unpay addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresses Unpay pour prouver que vous êtes le propriétaire</translation>
+        <source>Sign messages with your Mobicoin addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresses Mobicoin pour prouver que vous êtes le propriétaire</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="304"/>
@@ -526,8 +526,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="305"/>
-        <source>Verify messages to ensure they were signed with specified Unpay addresses</source>
-        <translation>Vérifier les messages pour vous assurer qu&apos;ils ont été signés avec les adresses Unpay spécifiées</translation>
+        <source>Verify messages to ensure they were signed with specified Mobicoin addresses</source>
+        <translation>Vérifier les messages pour vous assurer qu&apos;ils ont été signés avec les adresses Mobicoin spécifiées</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="307"/>
@@ -596,8 +596,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="322"/>
-        <source>Open a unpay: URI or payment request</source>
-        <translation>Ouvrir une URI ou demande de paiement unpay</translation>
+        <source>Open a mobicoin: URI or payment request</source>
+        <translation>Ouvrir une URI ou demande de paiement mobicoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="324"/>
@@ -606,8 +606,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="325"/>
-        <source>Show the Unpay Core help message to get a list with possible Unpay command-line options</source>
-        <translation>Afficher le message d&apos;aide de Unpay Core pour obtenir une liste des options de ligne de commande Bitcoin possibles.</translation>
+        <source>Show the Mobicoin Core help message to get a list with possible Mobicoin command-line options</source>
+        <translation>Afficher le message d&apos;aide de Mobicoin Core pour obtenir une liste des options de ligne de commande Bitcoin possibles.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="361"/>
@@ -637,13 +637,13 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     <message>
         <location filename="../bitcoingui.cpp" line="493"/>
         <location filename="../bitcoingui.cpp" line="498"/>
-        <source>Unpay client</source>
-        <translation>Client Unpay</translation>
+        <source>Mobicoin client</source>
+        <translation>Client Mobicoin</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="643"/>
-        <source>%n active connection(s) to Unpay network</source>
-        <translation><numerusform>%n connection(s) active(s) sur le réseau Unpay</numerusform><numerusform>%n connection(s) active sur le réseau Unpay</numerusform></translation>
+        <source>%n active connection(s) to Mobicoin network</source>
+        <translation><numerusform>%n connection(s) active(s) sur le réseau Mobicoin</numerusform><numerusform>%n connection(s) active sur le réseau Mobicoin</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="655"/>
@@ -723,8 +723,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="755"/>
-        <source>Unpay</source>
-        <translation>Unpay</translation>
+        <source>Mobicoin</source>
+        <translation>Mobicoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="769"/>
@@ -780,9 +780,9 @@ Adresse : %4
         <translation>Le portefeuille est &lt;b&gt;chiffré&lt;/b&gt; et actuellement &lt;b&gt;verrouillé&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../unpay.cpp" line="449"/>
-        <source>A fatal error occurred. Unpay can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale est survenue. Unpay ne peut plus continuer de façon sûre et va s&apos;arrêter.</translation>
+        <location filename="../mobicoin.cpp" line="449"/>
+        <source>A fatal error occurred. Mobicoin can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale est survenue. Mobicoin ne peut plus continuer de façon sûre et va s&apos;arrêter.</translation>
     </message>
 </context>
 <context>
@@ -1136,13 +1136,13 @@ Adresse : %4
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="78"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 UNP</source>
-        <translation>Utiliser 2 masternodes pour mélanger jusqu&apos;à 1000 UNP</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 MCP</source>
+        <translation>Utiliser 2 masternodes pour mélanger jusqu&apos;à 1000 MCP</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="91"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 UNP</source>
-        <translation>Utiliser 8 masternodes pour mélanger jusqu&apos;à 1000 UNP</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 MCP</source>
+        <translation>Utiliser 8 masternodes pour mélanger jusqu&apos;à 1000 MCP</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="104"/>
@@ -1151,18 +1151,18 @@ Adresse : %4
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="117"/>
-        <source>This option is the quickest and will cost about ~0.025 UNP to anonymize 1000 UNP</source>
-        <translation>Cette option est la plus rapide et coûtera environ 0,025 UNP pour anonymiser 1000 UNP</translation>
+        <source>This option is the quickest and will cost about ~0.025 MCP to anonymize 1000 MCP</source>
+        <translation>Cette option est la plus rapide et coûtera environ 0,025 MCP pour anonymiser 1000 MCP</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="130"/>
-        <source>This option is moderately fast and will cost about 0.05 UNP to anonymize 1000 UNP</source>
-        <translation>Cette option est un peu moins rapide et coûtera environ 0,05 UNP pour anonymiser 1000 UNP</translation>
+        <source>This option is moderately fast and will cost about 0.05 MCP to anonymize 1000 MCP</source>
+        <translation>Cette option est un peu moins rapide et coûtera environ 0,05 MCP pour anonymiser 1000 MCP</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="156"/>
-        <source>0.1 UNP per 1000 UNP you anonymize.</source>
-        <translation>0,1 UNP par 1000 UNP anonymisés.</translation>
+        <source>0.1 MCP per 1000 MCP you anonymize.</source>
+        <translation>0,1 MCP par 1000 MCP anonymisés.</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="143"/>
@@ -1178,18 +1178,18 @@ Adresse : %4
     </message>
     <message>
         <location filename="../darksendconfig.cpp" line="44"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Unpay&apos;s configuration screen.</source>
-        <translation>Darksend est réglé avec succès sur normal (%1 and 2 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Unpay.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Mobicoin&apos;s configuration screen.</source>
+        <translation>Darksend est réglé avec succès sur normal (%1 and 2 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Mobicoin.</translation>
     </message>
     <message>
         <location filename="../darksendconfig.cpp" line="59"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Unpay&apos;s configuration screen.</source>
-        <translation>Darksend est réglé avec succès sur haut (%1 and 8 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Unpay.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Mobicoin&apos;s configuration screen.</source>
+        <translation>Darksend est réglé avec succès sur haut (%1 and 8 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Mobicoin.</translation>
     </message>
     <message>
         <location filename="../darksendconfig.cpp" line="74"/>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Unpay&apos;s configuration screen.</source>
-        <translation>Darksend est réglé avec succès sur maximum (%1 and 16 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Unpay.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Mobicoin&apos;s configuration screen.</source>
+        <translation>Darksend est réglé avec succès sur maximum (%1 and 16 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Mobicoin.</translation>
     </message>
 </context>
 <context>
@@ -1241,8 +1241,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="111"/>
-        <source>The entered address &quot;%1&quot; is not a valid Unpay address.</source>
-        <translation>L&apos;adresse entrée &quot;%1&quot; est pas une adresse Unpay valide</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Mobicoin address.</source>
+        <translation>L&apos;adresse entrée &quot;%1&quot; est pas une adresse Mobicoin valide</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="116"/>
@@ -1292,13 +1292,13 @@ Adresse : %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="19"/>
-        <source>Unpay Core - Command-line options</source>
-        <translation>Unpay Core - options de la ligne de commande</translation>
+        <source>Mobicoin Core - Command-line options</source>
+        <translation>Mobicoin Core - options de la ligne de commande</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="69"/>
-        <source>Unpay Core</source>
-        <translation>Unpay Core</translation>
+        <source>Mobicoin Core</source>
+        <translation>Mobicoin Core</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="69"/>
@@ -1355,18 +1355,18 @@ Adresse : %4
     </message>
     <message>
         <location filename="../forms/intro.ui" line="23"/>
-        <source>Welcome to Unpay Core.</source>
-        <translation>Bienvenue à Unpay Core</translation>
+        <source>Welcome to Mobicoin Core.</source>
+        <translation>Bienvenue à Mobicoin Core</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="49"/>
-        <source>As this is the first time the program is launched, you can choose where Unpay Core will store its data.</source>
-        <translation>Comme il s&apos;agit du premier lancement du logiciel, vous pouvez choisir l&apos;emplacement où Unpay Core sauvegardera ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where Mobicoin Core will store its data.</source>
+        <translation>Comme il s&apos;agit du premier lancement du logiciel, vous pouvez choisir l&apos;emplacement où Mobicoin Core sauvegardera ses données.</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="59"/>
-        <source>Unpay Core will download and store a copy of the Unpay block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Unpay Core téléchargera et sauvegardera une copie de la chaîne de blocs Unpay. Au moins %1Go de données seront sauvegardées dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
+        <source>Mobicoin Core will download and store a copy of the Mobicoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Mobicoin Core téléchargera et sauvegardera une copie de la chaîne de blocs Mobicoin. Au moins %1Go de données seront sauvegardées dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="69"/>
@@ -1380,8 +1380,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../intro.cpp" line="185"/>
-        <source>Unpay</source>
-        <translation>Unpay</translation>
+        <source>Mobicoin</source>
+        <translation>Mobicoin</translation>
     </message>
     <message>
         <location filename="../intro.cpp" line="186"/>
@@ -1446,13 +1446,13 @@ Adresse : %4
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="33"/>
-        <source>Automatically start Unpay after logging in to the system.</source>
-        <translation>Démarrer Unpay automatiquement au démarrage du système.</translation>
+        <source>Automatically start Mobicoin after logging in to the system.</source>
+        <translation>Démarrer Mobicoin automatiquement au démarrage du système.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>&amp;Start Unpay on system login</source>
-        <translation>&amp;Démarrer Unpay au démarrage du système</translation>
+        <source>&amp;Start Mobicoin on system login</source>
+        <translation>&amp;Démarrer Mobicoin au démarrage du système</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="45"/>
@@ -1491,8 +1491,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="180"/>
-        <source>Amount of Unpay to keep anonymized</source>
-        <translation>Nombre de Unpay à conserver anonymisés</translation>
+        <source>Amount of Mobicoin to keep anonymized</source>
+        <translation>Nombre de Mobicoin à conserver anonymisés</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="206"/>
@@ -1541,8 +1541,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="307"/>
-        <source>Automatically open the Unpay client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port client Unpay sur le routeur. Cela ne fonctionne que sur les routeurs supportant et ayant activé UPnP.</translation>
+        <source>Automatically open the Mobicoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port client Mobicoin sur le routeur. Cela ne fonctionne que sur les routeurs supportant et ayant activé UPnP.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="310"/>
@@ -1551,8 +1551,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="317"/>
-        <source>Connect to the Unpay network through a SOCKS proxy.</source>
-        <translation>Connecter au réseau Unpay à travers un proxy SOCKS.</translation>
+        <source>Connect to the Mobicoin network through a SOCKS proxy.</source>
+        <translation>Connecter au réseau Mobicoin à travers un proxy SOCKS.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="320"/>
@@ -1626,15 +1626,15 @@ Adresse : %4
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="503"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Unpay.</source>
-        <translation>La langue de l&apos;interface utilisateur peut être modifiée ici. Ce paramètre sera pris en compte au redémarrage de Unpay.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Mobicoin.</source>
+        <translation>La langue de l&apos;interface utilisateur peut être modifiée ici. Ce paramètre sera pris en compte au redémarrage de Mobicoin.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="524"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/unpay/</source>
+https://www.transifex.com/projects/p/mobicoin/</source>
         <translation>Langage manquant ou traduction incomplète ? Participez aux traductions ici :
-https://www.transifex.com/projects/p/unpay/</translation>
+https://www.transifex.com/projects/p/mobicoin/</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="550"/>
@@ -1648,8 +1648,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="572"/>
-        <source>Whether to show Unpay addresses in the transaction list or not.</source>
-        <translation>Afficher ou non les adresses Unpay dans la liste des transactions.</translation>
+        <source>Whether to show Mobicoin addresses in the transaction list or not.</source>
+        <translation>Afficher ou non les adresses Mobicoin dans la liste des transactions.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="575"/>
@@ -1745,8 +1745,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
         <location filename="../forms/overviewpage.ui" line="70"/>
         <location filename="../forms/overviewpage.ui" line="953"/>
         <location filename="../forms/overviewpage.ui" line="1021"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Unpay network after a connection is established, but this process has not completed yet.</source>
-        <translation>L&apos;information affichée peut être obsolète. Votre portefeuille se synchronise automatiquement avec le réseau Unpay lorsque la connection est établie, mais le process n&apos;est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Mobicoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>L&apos;information affichée peut être obsolète. Votre portefeuille se synchronise automatiquement avec le réseau Mobicoin lorsque la connection est établie, mais le process n&apos;est pas encore terminé.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="114"/>
@@ -1810,8 +1810,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="349"/>
-        <source>0 UNP</source>
-        <translation>0 UNP</translation>
+        <source>0 MCP</source>
+        <translation>0 MCP</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="356"/>
@@ -1820,8 +1820,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="363"/>
-        <source>0 UNP / 0 Rounds</source>
-        <translation>0 UNP / 0 Cycles</translation>
+        <source>0 MCP / 0 Rounds</source>
+        <translation>0 MCP / 0 Cycles</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="370"/>
@@ -2062,8 +2062,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="294"/>
-        <source>Cannot start unpay: click-to-pay handler</source>
-        <translation>Impossible de démarrer unpay: click-to-pay le gestionnaire</translation>
+        <source>Cannot start mobicoin: click-to-pay handler</source>
+        <translation>Impossible de démarrer mobicoin: click-to-pay le gestionnaire</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="352"/>
@@ -2088,8 +2088,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="418"/>
-        <source>URI can not be parsed! This can be caused by an invalid Unpay address or malformed URI parameters.</source>
-        <translation>L&apos;URI ne peut être analysé ! Ceci peut être causé par une adresse Unpay invalide ou par des paramètres d&apos;URI mal composé.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Mobicoin address or malformed URI parameters.</source>
+        <translation>L&apos;URI ne peut être analysé ! Ceci peut être causé par une adresse Mobicoin invalide ou par des paramètres d&apos;URI mal composé.</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="432"/>
@@ -2145,42 +2145,42 @@ https://www.transifex.com/projects/p/unpay/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../unpay.cpp" line="525"/>
-        <location filename="../unpay.cpp" line="532"/>
-        <location filename="../unpay.cpp" line="539"/>
-        <location filename="../unpay.cpp" line="552"/>
-        <source>Unpay</source>
-        <translation>Le Unpay</translation>
+        <location filename="../mobicoin.cpp" line="525"/>
+        <location filename="../mobicoin.cpp" line="532"/>
+        <location filename="../mobicoin.cpp" line="539"/>
+        <location filename="../mobicoin.cpp" line="552"/>
+        <source>Mobicoin</source>
+        <translation>Le Mobicoin</translation>
     </message>
     <message>
-        <location filename="../unpay.cpp" line="526"/>
+        <location filename="../mobicoin.cpp" line="526"/>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
         <translation>Erreur : le répertoire de données spécifié « %1 » n&apos;existe pas.</translation>
     </message>
     <message>
-        <location filename="../unpay.cpp" line="533"/>
+        <location filename="../mobicoin.cpp" line="533"/>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
         <translation>Erreur : impossible d&apos;analyser le fichier de configuration : %1. N’utilisez que la syntaxe clef=valeur.</translation>
     </message>
     <message>
-        <location filename="../unpay.cpp" line="540"/>
+        <location filename="../mobicoin.cpp" line="540"/>
         <source>Error reading masternode configuration file: %1</source>
         <translation>Erreur de lecture du fichier de configuration du masternode: %1</translation>
     </message>
     <message>
-        <location filename="../unpay.cpp" line="552"/>
+        <location filename="../mobicoin.cpp" line="552"/>
         <source>Error: Invalid combination of -regtest and -testnet.</source>
         <translation>Erreur : combinaison invalide de -regtest et de -testnet.</translation>
     </message>
     <message>
-        <location filename="../unpay.cpp" line="612"/>
-        <source>Unpay Core didn&apos;t yet exit safely...</source>
-        <translation>Unpay Core ne s&apos;est pas encore arrêté en toute sécurité...</translation>
+        <location filename="../mobicoin.cpp" line="612"/>
+        <source>Mobicoin Core didn&apos;t yet exit safely...</source>
+        <translation>Mobicoin Core ne s&apos;est pas encore arrêté en toute sécurité...</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="101"/>
-        <source>Enter a Unpay address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>Entrez une adresse Unpay (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+        <source>Enter a Mobicoin address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>Entrez une adresse Mobicoin (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
 </context>
 <context>
@@ -2259,8 +2259,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="90"/>
-        <source>Open the Unpay debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvrir le fichier de debug Unpay depuis le répertoire de données actuel. Ceci peut prendre plusieurs secondes pour un fichier de debug imposant.</translation>
+        <source>Open the Mobicoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvrir le fichier de debug Mobicoin depuis le répertoire de données actuel. Ceci peut prendre plusieurs secondes pour un fichier de debug imposant.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="93"/>
@@ -2351,8 +2351,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="333"/>
-        <source>Welcome to the Unpay RPC console.</source>
-        <translation>Bienvenue sur la console RPC de Unpay.</translation>
+        <source>Welcome to the Mobicoin RPC console.</source>
+        <translation>Bienvenue sur la console RPC de Mobicoin.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="334"/>
@@ -2415,8 +2415,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     <message>
         <location filename="../forms/receivecoinsdialog.ui" line="51"/>
         <location filename="../forms/receivecoinsdialog.ui" line="74"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Unpay network.</source>
-        <translation>Un message optionnel à joindre à la demande de paiement, qui sera affiché quand la demande sera ouverte. Note : Ce message ne sera pas envoyé avec le paiement à travers le réseau Unpay.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Mobicoin network.</source>
+        <translation>Un message optionnel à joindre à la demande de paiement, qui sera affiché quand la demande sera ouverte. Note : Ce message ne sera pas envoyé avec le paiement à travers le réseau Mobicoin.</translation>
     </message>
     <message>
         <location filename="../forms/receivecoinsdialog.ui" line="54"/>
@@ -2900,8 +2900,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="635"/>
-        <source>Warning: Invalid Unpay address</source>
-        <translation>Attention: adresse Unpay invalide</translation>
+        <source>Warning: Invalid Mobicoin address</source>
+        <translation>Attention: adresse Mobicoin invalide</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="644"/>
@@ -2982,8 +2982,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="157"/>
-        <source>A message that was attached to the unpay: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Unpay network.</source>
-        <translation>Un message qui était joint au Unpay : URI qui sera sauvegardée avec la transaction pour référence. Note : Ce message ne sera pas envoyé à travers le réseau Unpay.</translation>
+        <source>A message that was attached to the mobicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Mobicoin network.</source>
+        <translation>Un message qui était joint au Mobicoin : URI qui sera sauvegardée avec la transaction pour référence. Note : Ce message ne sera pas envoyé à travers le réseau Mobicoin.</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="583"/>
@@ -3017,8 +3017,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="129"/>
-        <source>Unpay Core is shutting down...</source>
-        <translation>Arrêt de Unpay Core...</translation>
+        <source>Mobicoin Core is shutting down...</source>
+        <translation>Arrêt de Mobicoin Core...</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="130"/>
@@ -3087,8 +3087,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Unpay address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Unpay</translation>
+        <source>Sign the message to prove you own this Mobicoin address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse Mobicoin</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -3123,8 +3123,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Unpay address</source>
-        <translation>Vérifier le message pour s&apos;assurer qu&apos;il a été signé avec l&apos;adresse Unpay spécifiée</translation>
+        <source>Verify the message to ensure it was signed with the specified Mobicoin address</source>
+        <translation>Vérifier le message pour s&apos;assurer qu&apos;il a été signé avec l&apos;adresse Mobicoin spécifiée</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -3143,8 +3143,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
-        <source>Enter a Unpay address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>Entrez une adresse Unpay (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+        <source>Enter a Mobicoin address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>Entrez une adresse Mobicoin (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="114"/>
@@ -3217,8 +3217,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="33"/>
-        <source>Unpay Core</source>
-        <translation>Unpay Core</translation>
+        <source>Mobicoin Core</source>
+        <translation>Mobicoin Core</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="34"/>
@@ -3232,8 +3232,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="36"/>
-        <source>The Unpay Core developers</source>
-        <translation>Les développeurs Unpay Core</translation>
+        <source>The Mobicoin Core developers</source>
+        <translation>Les développeurs Mobicoin Core</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="37"/>
@@ -3871,8 +3871,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message numerus="yes">
         <location filename="../walletmodel.cpp" line="271"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n UNP.</source>
-        <translation><numerusform>InstantX ne supporte pas des transferts aussi élevés. Les transactions sont pour le moment limitées à %n UNP.</numerusform><numerusform>InstantX ne supporte pas des transferts aussi élevés. Les transactions sont pour le moment limitées à %n UNP.</numerusform></translation>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n MCP.</source>
+        <translation><numerusform>InstantX ne supporte pas des transferts aussi élevés. Les transactions sont pour le moment limitées à %n MCP.</numerusform><numerusform>InstantX ne supporte pas des transferts aussi élevés. Les transactions sont pour le moment limitées à %n MCP.</numerusform></translation>
     </message>
 </context>
 <context>
@@ -3919,274 +3919,274 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
 </context>
 <context>
-    <name>unpay-core</name>
+    <name>mobicoin-core</name>
     <message>
-        <location filename="../unpaystrings.cpp" line="16"/>
+        <location filename="../mobicoinstrings.cpp" line="16"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=unpayrpc
+rpcuser=mobicoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Unpay Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Mobicoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, vous devez définir un rpc mot de passe dans le fichier de configuration: 
 %s
 Il est recommandé que vous utilisiez ce mot de passe aléatoire:
-rpcuser=unpayrpc
+rpcuser=mobicoinrpc
 rpcpassword=%s
 (Vous ne devez pas vous souvenir de ce mot de passe)
 Le nom d&apos;utilisateur et le mot de passe NE DOIVENT PAS être équivalent.
 Si le fichier n&apos;existe pas, créé le avec les permissions de lecture uniquement pour le propriétaire.
 Il est recommandé de régler alertnotify pour que vous soyez averti des problèmes;
-Pour exemple: alertnotify=echo %%s | mail -s &quot;Alerte Unpay&quot; admin@foo.com
+Pour exemple: alertnotify=echo %%s | mail -s &quot;Alerte Mobicoin&quot; admin@foo.com
 </translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="29"/>
+        <location filename="../mobicoinstrings.cpp" line="29"/>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
         <translation>Chiffrements acceptables (par défaut : TLSv1.2+HIGH : TLSv1+HIGH : !SSLv2 : !aNULL : !eNULL : !3DES : @STRENGTH)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="32"/>
+        <location filename="../mobicoinstrings.cpp" line="32"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Une erreur est survenue lors du réglage du port RPC %u pour écouter sur IPv4 : %s</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="34"/>
+        <location filename="../mobicoinstrings.cpp" line="34"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Une erreur est survenue lors du réglage du port RPC %u pour écouter sur IPv6, retour à IPv4 : %s</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="37"/>
+        <location filename="../mobicoinstrings.cpp" line="37"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Se lier à l&apos;adresse donnée et toujours l&apos;écouter. Utilisez la notation [host]:port pour l&apos;IPv6</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="40"/>
-        <source>Cannot obtain a lock on data directory %s. Unpay Core is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Unpay Core fonctionne probablement déjà.</translation>
+        <location filename="../mobicoinstrings.cpp" line="40"/>
+        <source>Cannot obtain a lock on data directory %s. Mobicoin Core is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Mobicoin Core fonctionne probablement déjà.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="43"/>
+        <location filename="../mobicoinstrings.cpp" line="43"/>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
         <translation>Limiter continuellement les transactions gratuites à &lt;n&gt;*1000 octets par minute (par défaut : 15)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="46"/>
+        <location filename="../mobicoinstrings.cpp" line="46"/>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
         <translation>Darksend utilise les montants dénominés exacts pour envoyer des fonds, vous pourriez simplement avoir besoin d&apos;anonymiser plus de pièces.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="49"/>
+        <location filename="../mobicoinstrings.cpp" line="49"/>
         <source>Disable all Masternode and Darksend related functionality (0-1, default: 0)</source>
         <translation>Désactivez toutes les fonctionnalités liées à Masternode et Darksend (0-1, par défaut: 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="51"/>
+        <location filename="../mobicoinstrings.cpp" line="51"/>
         <source>Enable instantx, show confirmations for locked transactions (bool, default: true)</source>
         <translation>Activer instantx, montrer les confirmations pour les transactions verrouillées (bool, par defaut: true)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="54"/>
+        <location filename="../mobicoinstrings.cpp" line="54"/>
         <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: 0)</source>
         <translation>Activer l&apos;utilisation automatique de Darksend pour les fonds stockés dans ce portefeuille (0-1, défaut: 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="57"/>
+        <location filename="../mobicoinstrings.cpp" line="57"/>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
         <translation>Entrer dans le mode de test de régression qui utilise une chaîne spéciale dans laquelle les blocs peuvent être résolus instantanément. Ceci est destiné aux outils de test de régression et au développement d&apos;applications.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="61"/>
+        <location filename="../mobicoinstrings.cpp" line="61"/>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
         <translation>Passer en mode de test de régression qui utilise une chaîne spéciale dans laquelle les blocs sont résolus instantanément.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="64"/>
+        <location filename="../mobicoinstrings.cpp" line="64"/>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="66"/>
+        <location filename="../mobicoinstrings.cpp" line="66"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Erreur : La transaction a été rejetée ! Ceci peut arriver si certaines pièces de votre portefeuille étaient déjà dépensées, par exemple si vous avez utilisé une copie de wallet.dat et les pièces ont été dépensées avec cette copie sans être marquées comme tel ici.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="70"/>
+        <location filename="../mobicoinstrings.cpp" line="70"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
         <translation>Erreur : Cette transaction nécessite des frais de transaction d&apos;au moins %s en raison de son montant, de sa complexité ou de l&apos;utilisation de fonds reçus récemment !</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="73"/>
+        <location filename="../mobicoinstrings.cpp" line="73"/>
         <source>Error: Wallet unlocked for anonymization only, unable to create transaction.</source>
         <translation>Erreur: Portefeuille uniquement déverrouillé pour l&apos;anonymisation, impossible d&apos;effectuer une transaction.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="75"/>
+        <location filename="../mobicoinstrings.cpp" line="75"/>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Exécuter une commande lorsqu&apos;une alerte pertinente est reçue ou si nous voyons une bifurcation vraiment étendue (%s dans la commande est remplacé par le message)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="78"/>
+        <location filename="../mobicoinstrings.cpp" line="78"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Exécuter la commande lorsqu&apos;une transaction de portefeuille change (%s dans la commande est remplacée par TxID)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="81"/>
+        <location filename="../mobicoinstrings.cpp" line="81"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Exécuter la commande lorsque le meilleur bloc change (%s dans cmd est remplacé par le hachage du bloc)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="84"/>
+        <location filename="../mobicoinstrings.cpp" line="84"/>
         <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
         <translation>Les frais inférieurs à ce seuil sont considérés comme nuls (pour la création de transactions) (par défaut :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="87"/>
+        <location filename="../mobicoinstrings.cpp" line="87"/>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</source>
         <translation>Purger l’activité de la base de données de la zone de mémoire vers le journal sur disque tous les &lt;n&gt; mégaoctets (par défaut : 100)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="90"/>
+        <location filename="../mobicoinstrings.cpp" line="90"/>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
         <translation>Détection de sorties dénominées non confirmées, attente de leur confirmation pour continuer.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="93"/>
+        <location filename="../mobicoinstrings.cpp" line="93"/>
         <source>How thorough the block verification of -checkblocks is (0-4, default: 3)</source>
         <translation>Degré de profondeur de la vérification des blocs -checkblocks (0-4, par défaut : 3)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="95"/>
+        <location filename="../mobicoinstrings.cpp" line="95"/>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
         <translation>Dans ce mode -genproclimit contrôle combien de blocs sont générés immédiatement.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="98"/>
+        <location filename="../mobicoinstrings.cpp" line="98"/>
         <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>InstantX nécessite des entrées avec au moins 6 confirmations, vous devriez attendre quelques minutes avant de réessayer.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="101"/>
+        <location filename="../mobicoinstrings.cpp" line="101"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9998 or testnet: 19998)</source>
         <translation>Écouter les connexions JSON-RPC sur &lt;port&gt; (par défaut : 9998 ou tesnet : 19998)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="103"/>
+        <location filename="../mobicoinstrings.cpp" line="103"/>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
         <translation>Nom pour construire l&apos;URL pour l&apos;entrée KeePass qui conserve la phrase de passe du portefeuille</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="105"/>
+        <location filename="../mobicoinstrings.cpp" line="105"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Délai en secondes de refus de reconnexion pour les pairs présentant un mauvais comportement (par défaut : 86400)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="108"/>
+        <location filename="../mobicoinstrings.cpp" line="108"/>
         <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
         <translation>Extraire les informations de débogage (par défaut : 0, fournir &lt;category&gt; est optionnel)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="110"/>
+        <location filename="../mobicoinstrings.cpp" line="110"/>
         <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
         <translation>Fournir des liquidités à Darksend en mélangeant occasionnellement mais régulièrement des pièces (0-100, par défaut : 0, 1=très fréquent, frais élevés, 100=très rare, frais bas)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="114"/>
+        <location filename="../mobicoinstrings.cpp" line="114"/>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="117"/>
+        <location filename="../mobicoinstrings.cpp" line="117"/>
         <source>Set external address:port to get to this masternode (example: address:port)</source>
         <translation>Définir une adresse externe:port pour accéder à ce masternode (exemple : adresse:port)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="119"/>
+        <location filename="../mobicoinstrings.cpp" line="119"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Définir la taille maximale en octets des transactions prioritaires/à frais modiques (par défaut : %d)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="121"/>
+        <location filename="../mobicoinstrings.cpp" line="121"/>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>Définir le nombre d&apos;exétrons de vérification des scripts (%u à %d, 0 = auto, &lt; 0 = laisser ce nombre de cœurs inutilisés, par défaut : %d)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="124"/>
+        <location filename="../mobicoinstrings.cpp" line="124"/>
         <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
         <translation>Définir la limite processeur définissant quand la génération est en fonction (-1 = illimité, par défaut : -1)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="127"/>
+        <location filename="../mobicoinstrings.cpp" line="127"/>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: 1)</source>
         <translation>Afficher N confirmations for une transaction verrouillée réussie (0-9999, default : 1)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="130"/>
+        <location filename="../mobicoinstrings.cpp" line="130"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>Ceci est une pré-version de test - l&apos;utiliser à vos risques et périls - ne pas l&apos;utiliser pour miner ou pour des applications marchandes</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="133"/>
-        <source>Unable to bind to %s on this computer. Unpay Core is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. Unpay Core fonctionne probablement déjà.</translation>
+        <location filename="../mobicoinstrings.cpp" line="133"/>
+        <source>Unable to bind to %s on this computer. Mobicoin Core is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. Mobicoin Core fonctionne probablement déjà.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="136"/>
+        <location filename="../mobicoinstrings.cpp" line="136"/>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>Impossible de localiser suffisamment de fonds Darksend dénominés pour cette transaction.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="138"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 UNP.</source>
-        <translation>Impossible de localiser suffisamment de fonds non-dénominés Darksend pour cette transaction qui ne sont pas égaux à 1000 UNP.</translation>
+        <location filename="../mobicoinstrings.cpp" line="138"/>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 MCP.</source>
+        <translation>Impossible de localiser suffisamment de fonds non-dénominés Darksend pour cette transaction qui ne sont pas égaux à 1000 MCP.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="141"/>
+        <location filename="../mobicoinstrings.cpp" line="141"/>
         <source>Unable to locate enough Darksend non-denominated funds for this transaction.</source>
         <translation>Impossible de localiser suffisamment de fonds Darksend non-dénominés  pour cette transaction.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="143"/>
+        <location filename="../mobicoinstrings.cpp" line="143"/>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
         <translation>Utiliser un serveur mandataire SOCKS5 séparé pour atteindre les pairs par les services cachés de Tor (par défaut : -proxy)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="146"/>
+        <location filename="../mobicoinstrings.cpp" line="146"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Attention : -paytxfee est réglée sur un montant très élevé ! Il s&apos;agit des frais de transaction que vous payerez si vous envoyez une transaction.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="149"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Unpay will not work properly.</source>
-        <translation>Attention : Veuillez vérifier que la date et l&apos;heure de votre ordinateur sont justes ! Si votre horloge n&apos;est pas à l&apos;heure, Unpay ne fonctionnera pas correctement.</translation>
+        <location filename="../mobicoinstrings.cpp" line="149"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Mobicoin will not work properly.</source>
+        <translation>Attention : Veuillez vérifier que la date et l&apos;heure de votre ordinateur sont justes ! Si votre horloge n&apos;est pas à l&apos;heure, Mobicoin ne fonctionnera pas correctement.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="152"/>
+        <location filename="../mobicoinstrings.cpp" line="152"/>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Attention : Le réseau ne semble pas totalement d&apos;accord ! Quelques mineurs semblent éprouver des difficultés.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="155"/>
+        <location filename="../mobicoinstrings.cpp" line="155"/>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Attention : Nous ne semblons pas être en accord complet avec nos pairs ! Vous pourriez avoir besoin d&apos;effectuer une mise à niveau, ou d&apos;autres nœuds du réseau pourraient avoir besoin d&apos;effectuer une mise à niveau.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="158"/>
+        <location filename="../mobicoinstrings.cpp" line="158"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Avertissement : une erreur est survenue lors de la lecture de wallet.dat ! Toutes les clefs ont été lues correctement mais les données de transaction ou les entrées du carnet d&apos;adresses sont peut-être incorrectes ou manquantes.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="161"/>
+        <location filename="../mobicoinstrings.cpp" line="161"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>Avertissement : wallet.dat corrompu, données récupérées ! Le fichier wallet.dat original a été enregistré en tant que wallet.{timestamp}.bak dans %s ; si votre solde ou transactions sont incorrects vous devriez effectuer une restauration depuis une sauvegarde.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="165"/>
+        <location filename="../mobicoinstrings.cpp" line="165"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
@@ -4195,1067 +4195,1067 @@ If the file does not exist, create it with owner-readable-only file permissions.
 Si le fichier n&apos;existe pas, créez-le avec les droits de lecture seule accordés au propriétaire.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="170"/>
+        <location filename="../mobicoinstrings.cpp" line="170"/>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
         <translation>Vous devez définir masternodeprivkey dans la configuration. Veuillez consulter la documentation pour plus d&apos;aide.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="173"/>
+        <location filename="../mobicoinstrings.cpp" line="173"/>
         <source>(default: 1)</source>
         <translation>(par défaut : 1)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="174"/>
+        <location filename="../mobicoinstrings.cpp" line="174"/>
         <source>(default: wallet.dat)</source>
         <translation>(par défaut : wallet.dat)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="175"/>
+        <location filename="../mobicoinstrings.cpp" line="175"/>
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt; peut être :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="176"/>
+        <location filename="../mobicoinstrings.cpp" line="176"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Accepter les commandes de JSON-RPC et de la ligne de commande</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="177"/>
+        <location filename="../mobicoinstrings.cpp" line="177"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Accepter les connexions entrantes (par défaut : 1 si aucun -proxy ou -connect )</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="178"/>
+        <location filename="../mobicoinstrings.cpp" line="178"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Ajouter un nœud auquel se connecter et tenter de garder la connexion ouverte</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="179"/>
+        <location filename="../mobicoinstrings.cpp" line="179"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Autoriser les recherches DNS pour -addnode, -seednode et -connect</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="180"/>
+        <location filename="../mobicoinstrings.cpp" line="180"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Autoriser les connexions JSON-RPC depuis l&apos;adresse IP spécifiée</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="181"/>
+        <location filename="../mobicoinstrings.cpp" line="181"/>
         <source>Already have that input.</source>
         <translation>Entrée déjà présente.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="182"/>
+        <location filename="../mobicoinstrings.cpp" line="182"/>
         <source>Always query for peer addresses via DNS lookup (default: 0)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="183"/>
+        <location filename="../mobicoinstrings.cpp" line="183"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Tenter de récupérer les clefs privées d&apos;un wallet.dat corrompu</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="184"/>
+        <location filename="../mobicoinstrings.cpp" line="184"/>
         <source>Block creation options:</source>
         <translation>Options de création de bloc :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="185"/>
+        <location filename="../mobicoinstrings.cpp" line="185"/>
         <source>Can&apos;t denominate: no compatible inputs left.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="186"/>
+        <location filename="../mobicoinstrings.cpp" line="186"/>
         <source>Cannot downgrade wallet</source>
         <translation>Impossible de revenir à une version inférieure du portefeuille</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="187"/>
+        <location filename="../mobicoinstrings.cpp" line="187"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
         <translation>Impossible de résoudre l&apos;adresse -bind : « %s »</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="188"/>
+        <location filename="../mobicoinstrings.cpp" line="188"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
         <translation>Impossible de résoudre l&apos;adresse -externalip : « %s »</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="189"/>
+        <location filename="../mobicoinstrings.cpp" line="189"/>
         <source>Cannot write default address</source>
         <translation>Impossible d&apos;écrire l&apos;adresse par défaut</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="190"/>
+        <location filename="../mobicoinstrings.cpp" line="190"/>
         <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
         <translation>Effacer la liste des transactions du portefeuille (outil de diagnostic, implique un nouveau balayage -rescan)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="191"/>
+        <location filename="../mobicoinstrings.cpp" line="191"/>
         <source>Collateral is not valid.</source>
         <translation>Le collatéral est invalide.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="192"/>
+        <location filename="../mobicoinstrings.cpp" line="192"/>
         <source>Collateral not valid.</source>
         <translation>Collatéral invalide.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="193"/>
+        <location filename="../mobicoinstrings.cpp" line="193"/>
         <source>Connect only to the specified node(s)</source>
         <translation>Ne se connecter qu&apos;au(x) nœud(s) spécifié(s)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="194"/>
+        <location filename="../mobicoinstrings.cpp" line="194"/>
         <source>Connect through SOCKS proxy</source>
         <translation>Connexion à travers un serveur mandataire SOCKS</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="195"/>
+        <location filename="../mobicoinstrings.cpp" line="195"/>
         <source>Connect to JSON-RPC on &lt;port&gt; (default: 9998 or testnet: 19998)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="196"/>
+        <location filename="../mobicoinstrings.cpp" line="196"/>
         <source>Connect to KeePassHttp on port &lt;port&gt; (default: 19455)</source>
         <translation>Connecter à KeePassHttp sur le pot &lt;port&gt; (par défaut: 19455)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="197"/>
+        <location filename="../mobicoinstrings.cpp" line="197"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Se connecter à un nœud pour obtenir des adresses de pairs puis se déconnecter</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="198"/>
+        <location filename="../mobicoinstrings.cpp" line="198"/>
         <source>Connection options:</source>
         <translation>Options de connexion :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="199"/>
+        <location filename="../mobicoinstrings.cpp" line="199"/>
         <source>Corrupted block database detected</source>
         <translation>Base corrompue de données des blocs détectée</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="200"/>
-        <source>Unpay Core Daemon</source>
-        <translation>Démon Unpay Core</translation>
+        <location filename="../mobicoinstrings.cpp" line="200"/>
+        <source>Mobicoin Core Daemon</source>
+        <translation>Démon Mobicoin Core</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="201"/>
-        <source>Unpay Core RPC client version</source>
-        <translation>Version du client RPC de Unpay Core</translation>
+        <location filename="../mobicoinstrings.cpp" line="201"/>
+        <source>Mobicoin Core RPC client version</source>
+        <translation>Version du client RPC de Mobicoin Core</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="202"/>
+        <location filename="../mobicoinstrings.cpp" line="202"/>
         <source>Darksend is disabled.</source>
         <translation>Darksend est désactivé.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="203"/>
+        <location filename="../mobicoinstrings.cpp" line="203"/>
         <source>Darksend options:</source>
         <translation>Options Darksend :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="204"/>
+        <location filename="../mobicoinstrings.cpp" line="204"/>
         <source>Debugging/Testing options:</source>
         <translation>Options de test/de débogage :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="205"/>
+        <location filename="../mobicoinstrings.cpp" line="205"/>
         <source>Disable safemode, override a real safe mode event (default: 0)</source>
         <translation>Désactiver le mode sans échec, passer outre un événement sans échec réel (par défaut : 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="206"/>
+        <location filename="../mobicoinstrings.cpp" line="206"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Découvrir sa propre adresse IP (par défaut : 1 lors de l&apos;écoute et si aucun -externalip)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="207"/>
+        <location filename="../mobicoinstrings.cpp" line="207"/>
         <source>Do not load the wallet and disable wallet RPC calls</source>
         <translation>Ne pas charger le portefeuille et désactiver les appels RPC</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="208"/>
+        <location filename="../mobicoinstrings.cpp" line="208"/>
         <source>Do you want to rebuild the block database now?</source>
         <translation>Voulez-vous reconstruire la base de données des blocs maintenant ?</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="209"/>
+        <location filename="../mobicoinstrings.cpp" line="209"/>
         <source>Done loading</source>
         <translation>Chargement terminé</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="210"/>
+        <location filename="../mobicoinstrings.cpp" line="210"/>
         <source>Downgrading and trying again.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="211"/>
+        <location filename="../mobicoinstrings.cpp" line="211"/>
         <source>Enable the client to act as a masternode (0-1, default: 0)</source>
         <translation>Autoriser le client à agir en tant que masternode (0-1, par défaut : 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="212"/>
+        <location filename="../mobicoinstrings.cpp" line="212"/>
         <source>Entries are full.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="213"/>
+        <location filename="../mobicoinstrings.cpp" line="213"/>
         <source>Error connecting to masternode.</source>
         <translation>Erreur de connexion au masternode.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="214"/>
+        <location filename="../mobicoinstrings.cpp" line="214"/>
         <source>Error initializing block database</source>
         <translation>Erreur lors de l&apos;initialisation de la base de données des blocs</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="215"/>
+        <location filename="../mobicoinstrings.cpp" line="215"/>
         <source>Error initializing wallet database environment %s!</source>
         <translation>Erreur lors de l&apos;initialisation de l&apos;environnement de la base de données du portefeuille %s !</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="216"/>
+        <location filename="../mobicoinstrings.cpp" line="216"/>
         <source>Error loading block database</source>
         <translation>Erreur du chargement de la base de données des blocs</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="217"/>
+        <location filename="../mobicoinstrings.cpp" line="217"/>
         <source>Error loading wallet.dat</source>
         <translation>Erreur lors du chargement de wallet.dat</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="218"/>
+        <location filename="../mobicoinstrings.cpp" line="218"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>Erreur lors du chargement de wallet.dat : portefeuille corrompu</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="219"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Unpay</source>
-        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de Unpay</translation>
+        <location filename="../mobicoinstrings.cpp" line="219"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Mobicoin</source>
+        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de Mobicoin</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="220"/>
+        <location filename="../mobicoinstrings.cpp" line="220"/>
         <source>Error opening block database</source>
         <translation>Erreur lors de l&apos;ouverture de la base de données des blocs</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="221"/>
+        <location filename="../mobicoinstrings.cpp" line="221"/>
         <source>Error reading from database, shutting down.</source>
         <translation>Erreur à la lecture de la base de données, arrêt en cours.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="222"/>
+        <location filename="../mobicoinstrings.cpp" line="222"/>
         <source>Error recovering public key.</source>
         <translation>Erreur à la récupération de la clé publique.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="223"/>
+        <location filename="../mobicoinstrings.cpp" line="223"/>
         <source>Error</source>
         <translation>Erreur</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="224"/>
+        <location filename="../mobicoinstrings.cpp" line="224"/>
         <source>Error: Disk space is low!</source>
         <translation>Erreur : l&apos;espace disque est faible !</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="225"/>
+        <location filename="../mobicoinstrings.cpp" line="225"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>Erreur : Portefeuille verrouillé, impossible de créer la transaction !</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="226"/>
+        <location filename="../mobicoinstrings.cpp" line="226"/>
         <source>Error: You already have pending entries in the Darksend pool</source>
         <translation>Erreur : Vous avez déjà des entrées en attente dans la pool Darksend</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="227"/>
+        <location filename="../mobicoinstrings.cpp" line="227"/>
         <source>Error: system error: </source>
         <translation>Erreur : erreur système :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="228"/>
+        <location filename="../mobicoinstrings.cpp" line="228"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Échec de l&apos;écoute sur un port quelconque. Utilisez -listen=0 si vous voulez ceci.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="229"/>
+        <location filename="../mobicoinstrings.cpp" line="229"/>
         <source>Failed to read block info</source>
         <translation>La lecture des informations de bloc a échoué</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="230"/>
+        <location filename="../mobicoinstrings.cpp" line="230"/>
         <source>Failed to read block</source>
         <translation>La lecture du bloc a échoué</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="231"/>
+        <location filename="../mobicoinstrings.cpp" line="231"/>
         <source>Failed to sync block index</source>
         <translation>La synchronisation de l&apos;index des blocs a échoué</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="232"/>
+        <location filename="../mobicoinstrings.cpp" line="232"/>
         <source>Failed to write block index</source>
         <translation>L&apos;&apos;écriture de l&apos;index des blocs a échoué</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="233"/>
+        <location filename="../mobicoinstrings.cpp" line="233"/>
         <source>Failed to write block info</source>
         <translation>L&apos;écriture des informations du bloc a échoué</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="234"/>
+        <location filename="../mobicoinstrings.cpp" line="234"/>
         <source>Failed to write block</source>
         <translation>L&apos;écriture du bloc a échoué</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="235"/>
+        <location filename="../mobicoinstrings.cpp" line="235"/>
         <source>Failed to write file info</source>
         <translation>L&apos;écriture des informations de fichier a échoué</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="236"/>
+        <location filename="../mobicoinstrings.cpp" line="236"/>
         <source>Failed to write to coin database</source>
         <translation>L&apos;écriture dans la base de données des pièces a échoué</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="237"/>
+        <location filename="../mobicoinstrings.cpp" line="237"/>
         <source>Failed to write transaction index</source>
         <translation>L&apos;écriture de l&apos;index des transactions a échoué</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="238"/>
+        <location filename="../mobicoinstrings.cpp" line="238"/>
         <source>Failed to write undo data</source>
         <translation>L&apos;écriture des données d&apos;annulation a échoué</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="239"/>
+        <location filename="../mobicoinstrings.cpp" line="239"/>
         <source>Fee per kB to add to transactions you send</source>
         <translation>Frais par ko à ajouter aux transactions que vous envoyez</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="240"/>
+        <location filename="../mobicoinstrings.cpp" line="240"/>
         <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
         <translation>Les frais inférieurs à ce seuil sont considérés comme nuls (pour le relayage) (par défaut :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="241"/>
+        <location filename="../mobicoinstrings.cpp" line="241"/>
         <source>Force safe mode (default: 0)</source>
         <translation>Forcer le mode sans échec (par défaut : 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="242"/>
+        <location filename="../mobicoinstrings.cpp" line="242"/>
         <source>Generate coins (default: 0)</source>
         <translation>Générer des pièces (défaut : 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="243"/>
+        <location filename="../mobicoinstrings.cpp" line="243"/>
         <source>Get help for a command</source>
         <translation>Obtenir de l’aide pour une commande</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="244"/>
+        <location filename="../mobicoinstrings.cpp" line="244"/>
         <source>How many blocks to check at startup (default: 288, 0 = all)</source>
         <translation>Nombre de blocs à vérifier au démarrage (par défaut : 288, 0 = tous)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="245"/>
+        <location filename="../mobicoinstrings.cpp" line="245"/>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
         <translation>Si &lt;category&gt; n&apos;est pas indiqué, extraire toutes les données de débogage.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="246"/>
+        <location filename="../mobicoinstrings.cpp" line="246"/>
         <source>Ignore masternodes less than version (example: 70050; default : 0)</source>
         <translation>Ignorer les masternodes ayant une version inférieure (exemple: 70050 ; par défaut : 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="247"/>
+        <location filename="../mobicoinstrings.cpp" line="247"/>
         <source>Importing...</source>
         <translation>Importation...</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="248"/>
+        <location filename="../mobicoinstrings.cpp" line="248"/>
         <source>Imports blocks from external blk000??.dat file</source>
         <translation>Importe des blocs depuis un fichier blk000??.dat externe</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="249"/>
+        <location filename="../mobicoinstrings.cpp" line="249"/>
         <source>Incompatible mode.</source>
         <translation>Mode incompatible.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="250"/>
+        <location filename="../mobicoinstrings.cpp" line="250"/>
         <source>Incompatible version.</source>
         <translation>Version incompatible.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="251"/>
+        <location filename="../mobicoinstrings.cpp" line="251"/>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>Bloc de genèse incorrect ou introuvable. Mauvais répertoire de données pour le réseau ?</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="252"/>
+        <location filename="../mobicoinstrings.cpp" line="252"/>
         <source>Information</source>
         <translation>Informations</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="253"/>
-        <source>Initialization sanity check failed. Unpay Core is shutting down.</source>
+        <location filename="../mobicoinstrings.cpp" line="253"/>
+        <source>Initialization sanity check failed. Mobicoin Core is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="254"/>
+        <location filename="../mobicoinstrings.cpp" line="254"/>
         <source>Input is not valid.</source>
         <translation>L&apos;entrée est invalide.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="255"/>
+        <location filename="../mobicoinstrings.cpp" line="255"/>
         <source>InstantX options:</source>
         <translation>Options InstantX :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="256"/>
+        <location filename="../mobicoinstrings.cpp" line="256"/>
         <source>Insufficient funds</source>
         <translation>Fonds insuffisants</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="257"/>
+        <location filename="../mobicoinstrings.cpp" line="257"/>
         <source>Insufficient funds.</source>
         <translation>Fonds insuffisants</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="258"/>
+        <location filename="../mobicoinstrings.cpp" line="258"/>
         <source>Invalid -onion address: &apos;%s&apos;</source>
         <translation>Adresse -onion invalide : « %s »</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="259"/>
+        <location filename="../mobicoinstrings.cpp" line="259"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Adresse -proxy invalide : « %s »</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="260"/>
+        <location filename="../mobicoinstrings.cpp" line="260"/>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Montant invalide pour -minrelayfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="261"/>
+        <location filename="../mobicoinstrings.cpp" line="261"/>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Montant invalide pour -mintxfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="262"/>
+        <location filename="../mobicoinstrings.cpp" line="262"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Montant invalide pour -paytxfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="263"/>
+        <location filename="../mobicoinstrings.cpp" line="263"/>
         <source>Invalid amount</source>
         <translation>Montant invalide</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="264"/>
+        <location filename="../mobicoinstrings.cpp" line="264"/>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation>masternodeprivkey invalide. Veuillez vous référer à la documentation.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="265"/>
+        <location filename="../mobicoinstrings.cpp" line="265"/>
         <source>Invalid private key.</source>
         <translation>Clé privée invalide.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="266"/>
+        <location filename="../mobicoinstrings.cpp" line="266"/>
         <source>Invalid script detected.</source>
         <translation>Script invalide détecté.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="267"/>
+        <location filename="../mobicoinstrings.cpp" line="267"/>
         <source>KeePassHttp id for the established association</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="268"/>
+        <location filename="../mobicoinstrings.cpp" line="268"/>
         <source>KeePassHttp key for AES encrypted communication with KeePass</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="269"/>
-        <source>Keep N unpay anonymized (default: 0)</source>
-        <translation>Maintenir N unpay anonymisé en permanence (défaut: 0)</translation>
+        <location filename="../mobicoinstrings.cpp" line="269"/>
+        <source>Keep N mobicoin anonymized (default: 0)</source>
+        <translation>Maintenir N mobicoin anonymisé en permanence (défaut: 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="270"/>
+        <location filename="../mobicoinstrings.cpp" line="270"/>
         <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="271"/>
+        <location filename="../mobicoinstrings.cpp" line="271"/>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="272"/>
+        <location filename="../mobicoinstrings.cpp" line="272"/>
         <source>Last Darksend was too recent.</source>
         <translation>Le dernier Darksend est trop récent.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="273"/>
+        <location filename="../mobicoinstrings.cpp" line="273"/>
         <source>Last successful darksend action was too recent.</source>
         <translation>La dernière action Darksend est trop récente.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="274"/>
+        <location filename="../mobicoinstrings.cpp" line="274"/>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
         <translation>Limiter la taille du cache des signatures à &lt;n&gt; entrées (par défaut : 50000)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="275"/>
+        <location filename="../mobicoinstrings.cpp" line="275"/>
         <source>List commands</source>
         <translation>Lister les commandes</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="276"/>
+        <location filename="../mobicoinstrings.cpp" line="276"/>
         <source>Listen for connections on &lt;port&gt; (default: 9999 or testnet: 19999)</source>
         <translation>Écouter les connexions sur &lt;port&gt; (par défaut: 9999 ou testnet: 19999)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="277"/>
+        <location filename="../mobicoinstrings.cpp" line="277"/>
         <source>Loading addresses...</source>
         <translation>Chargement des adresses…</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="278"/>
+        <location filename="../mobicoinstrings.cpp" line="278"/>
         <source>Loading block index...</source>
         <translation>Chargement de l’index des blocs…</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="279"/>
+        <location filename="../mobicoinstrings.cpp" line="279"/>
         <source>Loading masternode list...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="280"/>
+        <location filename="../mobicoinstrings.cpp" line="280"/>
         <source>Loading wallet... (%3.2f %%)</source>
         <translation>Chargement du portefeuille... (%3.2f %%)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="281"/>
+        <location filename="../mobicoinstrings.cpp" line="281"/>
         <source>Loading wallet...</source>
         <translation>Chargement du portefeuille…</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="282"/>
+        <location filename="../mobicoinstrings.cpp" line="282"/>
         <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
         <translation>Lors du minage, journaliser la priorité des transactions et les frais par ko (par défaut : 0) </translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="283"/>
+        <location filename="../mobicoinstrings.cpp" line="283"/>
         <source>Maintain a full transaction index (default: 0)</source>
         <translation>Maintenir un index complet des transactions (par défaut : 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="284"/>
+        <location filename="../mobicoinstrings.cpp" line="284"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
         <translation>Garder au plus &lt;n&gt; connexions avec les pairs (par défaut : 125)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="285"/>
+        <location filename="../mobicoinstrings.cpp" line="285"/>
         <source>Masternode options:</source>
         <translation>Options Masternode :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="286"/>
+        <location filename="../mobicoinstrings.cpp" line="286"/>
         <source>Masternode queue is full.</source>
         <translation>La file d&apos;attente du masternode est pleine.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="287"/>
+        <location filename="../mobicoinstrings.cpp" line="287"/>
         <source>Masternode:</source>
         <translation>Masternode :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="288"/>
+        <location filename="../mobicoinstrings.cpp" line="288"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>Tampon maximal de réception par connexion, &lt;n&gt;*1 000 octets (par défaut : 5000)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="289"/>
+        <location filename="../mobicoinstrings.cpp" line="289"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
         <translation>Tampon maximal d&apos;envoi par connexion », &lt;n&gt;*1000 octets (par défaut : 1000)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="290"/>
+        <location filename="../mobicoinstrings.cpp" line="290"/>
         <source>Missing input transaction information.</source>
         <translation>Informations de transaction entrante manquantes.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="291"/>
+        <location filename="../mobicoinstrings.cpp" line="291"/>
         <source>No compatible masternode found.</source>
         <translation>Aucun masternode compatible trouvé.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="292"/>
+        <location filename="../mobicoinstrings.cpp" line="292"/>
         <source>No funds detected in need of denominating.</source>
         <translation>Aucuns fonds détectés nécessitant une dénomination.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="293"/>
+        <location filename="../mobicoinstrings.cpp" line="293"/>
         <source>No masternodes detected.</source>
         <translation>Aucun masternode détecté.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="294"/>
+        <location filename="../mobicoinstrings.cpp" line="294"/>
         <source>No matching denominations found for mixing.</source>
         <translation>Pas de dénominations équivalentes trouvées pour le mélange.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="295"/>
+        <location filename="../mobicoinstrings.cpp" line="295"/>
         <source>Non-standard public key detected.</source>
         <translation>Clé publique non standard détectée.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="296"/>
+        <location filename="../mobicoinstrings.cpp" line="296"/>
         <source>Not compatible with existing transactions.</source>
         <translation>Non compatible avec les transactions existantes.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="297"/>
+        <location filename="../mobicoinstrings.cpp" line="297"/>
         <source>Not enough file descriptors available.</source>
         <translation>Pas assez de descripteurs de fichiers de disponibles.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="298"/>
+        <location filename="../mobicoinstrings.cpp" line="298"/>
         <source>Not in the masternode list.</source>
         <translation>Absent de la liste des masternodes.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="299"/>
+        <location filename="../mobicoinstrings.cpp" line="299"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
         <translation>N&apos;accepter qu&apos;une chaîne de blocs correspondant aux points de vérification intégrés (par défaut : 1)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="300"/>
+        <location filename="../mobicoinstrings.cpp" line="300"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation>Se connecter uniquement aux nœuds du réseau &lt;net&gt; (IPv4, IPv6 ou Tor)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="301"/>
+        <location filename="../mobicoinstrings.cpp" line="301"/>
         <source>Options:</source>
         <translation>Options :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="302"/>
+        <location filename="../mobicoinstrings.cpp" line="302"/>
         <source>Password for JSON-RPC connections</source>
         <translation>Mot de passe pour les connexions JSON-RPC</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="303"/>
+        <location filename="../mobicoinstrings.cpp" line="303"/>
         <source>Prepend debug output with timestamp (default: 1)</source>
         <translation>Ajouter l&apos;horodatage au début de la sortie de débogage (par défaut : 1)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="304"/>
+        <location filename="../mobicoinstrings.cpp" line="304"/>
         <source>Print block on startup, if found in block index</source>
         <translation>Imprimer le bloc au démarrage s&apos;il est trouvé dans l&apos;index des blocs</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="305"/>
+        <location filename="../mobicoinstrings.cpp" line="305"/>
         <source>Print block tree on startup (default: 0)</source>
         <translation>Imprimer l&apos;arborescence des blocs au démarrage (par défaut : 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="306"/>
+        <location filename="../mobicoinstrings.cpp" line="306"/>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Options RPC SSL : (voir le wiki Bitcoin pour les instructions de configuration de SSL)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="307"/>
+        <location filename="../mobicoinstrings.cpp" line="307"/>
         <source>RPC client options:</source>
         <translation>Options du client RPC :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="308"/>
+        <location filename="../mobicoinstrings.cpp" line="308"/>
         <source>RPC server options:</source>
         <translation>Options du serveur RPC :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="309"/>
+        <location filename="../mobicoinstrings.cpp" line="309"/>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
         <translation>Abandonner aléatoirement 1 message du réseau sur &lt;n&gt;</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="310"/>
+        <location filename="../mobicoinstrings.cpp" line="310"/>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
         <translation>Tester aléatoirement 1 message du réseau sur &lt;n&gt;</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="311"/>
+        <location filename="../mobicoinstrings.cpp" line="311"/>
         <source>Rebuild block chain index from current blk000??.dat files</source>
         <translation>Reconstruire l&apos;index de la chaîne de blocs à partir des fichiers blk000??.dat courants</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="312"/>
+        <location filename="../mobicoinstrings.cpp" line="312"/>
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Réanalyser la chaîne de blocs pour les transactions de portefeuille manquantes</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="313"/>
+        <location filename="../mobicoinstrings.cpp" line="313"/>
         <source>Rescanning...</source>
         <translation>Nouvelle analyse…</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="314"/>
+        <location filename="../mobicoinstrings.cpp" line="314"/>
         <source>Run a thread to flush wallet periodically (default: 1)</source>
         <translation>Exécuter une tâche pour purger le portefeuille périodiquement (par défaut : 1) </translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="315"/>
+        <location filename="../mobicoinstrings.cpp" line="315"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Fonctionner en arrière-plan en tant que démon et accepter les commandes</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="316"/>
+        <location filename="../mobicoinstrings.cpp" line="316"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Options SSL : (voir le Wiki de Bitcoin pour les instructions de configuration du SSL)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="317"/>
+        <location filename="../mobicoinstrings.cpp" line="317"/>
         <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
         <translation>Choisir la version SOCKS pour -proxy (4 ou 5, par défaut : 5)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="318"/>
-        <source>Send command to Unpay Core</source>
-        <translation>Envoyer commandes vers Unpay Core</translation>
+        <location filename="../mobicoinstrings.cpp" line="318"/>
+        <source>Send command to Mobicoin Core</source>
+        <translation>Envoyer commandes vers Mobicoin Core</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="319"/>
+        <location filename="../mobicoinstrings.cpp" line="319"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
         <translation>Envoyer des commandes au nœud fonctionnant sur &lt;ip&gt; (par défaut : 127.0.0.1)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="320"/>
+        <location filename="../mobicoinstrings.cpp" line="320"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Envoyer les informations de débogage/trace à la console au lieu du fichier debug.log</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="321"/>
+        <location filename="../mobicoinstrings.cpp" line="321"/>
         <source>Server certificate file (default: server.cert)</source>
         <translation>Fichier de certification du serveur (par défaut : server.cert)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="322"/>
+        <location filename="../mobicoinstrings.cpp" line="322"/>
         <source>Server private key (default: server.pem)</source>
         <translation>Clef privée du serveur (par défaut : server.pem)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="323"/>
+        <location filename="../mobicoinstrings.cpp" line="323"/>
         <source>Session not complete!</source>
         <translation>Session incomplète!</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="324"/>
+        <location filename="../mobicoinstrings.cpp" line="324"/>
         <source>Session timed out (30 seconds), please resubmit.</source>
         <translation>Session expirée (30 secondes), veuillez s&apos;il vous plaît réessayer.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="325"/>
+        <location filename="../mobicoinstrings.cpp" line="325"/>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation>Définir la taille du cache de la base de données en mégaoctets (%d to %d, default: %d)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="326"/>
+        <location filename="../mobicoinstrings.cpp" line="326"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Définir la taille de la réserve de clefs à &lt;n&gt; (par défaut : 100)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="327"/>
+        <location filename="../mobicoinstrings.cpp" line="327"/>
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Définir la taille minimale de bloc en octets (par défaut : %d)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="328"/>
+        <location filename="../mobicoinstrings.cpp" line="328"/>
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation>Définir la taille de bloc minimale en octets (par défaut : 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="329"/>
+        <location filename="../mobicoinstrings.cpp" line="329"/>
         <source>Set the masternode private key</source>
         <translation>Définir la clé privée du masternode</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="330"/>
+        <location filename="../mobicoinstrings.cpp" line="330"/>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
         <translation>Définir le nombre d&apos;exétrons pour desservir les appels RPC (par défaut : 4)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="331"/>
+        <location filename="../mobicoinstrings.cpp" line="331"/>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</source>
         <translation>Définit le drapeau DB_PRIVATE dans l&apos;environnement de la BD du portefeuille (par défaut : 1)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="332"/>
+        <location filename="../mobicoinstrings.cpp" line="332"/>
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Montrer toutes les options de débogage (utilisation : --help --help-debug)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="333"/>
+        <location filename="../mobicoinstrings.cpp" line="333"/>
         <source>Show benchmark information (default: 0)</source>
         <translation>Afficher les infos du test de performance (par défaut : 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="334"/>
+        <location filename="../mobicoinstrings.cpp" line="334"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Réduire le fichier debug.log lors du démarrage du client (par défaut : 1 lorsque -debug n&apos;est pas présent)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="335"/>
+        <location filename="../mobicoinstrings.cpp" line="335"/>
         <source>Signing failed.</source>
         <translation>La signature a échoué.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="336"/>
+        <location filename="../mobicoinstrings.cpp" line="336"/>
         <source>Signing timed out, please resubmit.</source>
         <translation>Signature expirée, veuillez s&apos;il vous plaît réessayer.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="337"/>
+        <location filename="../mobicoinstrings.cpp" line="337"/>
         <source>Signing transaction failed</source>
         <translation>La signature de la transaction a échoué</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="338"/>
-        <source>Specify configuration file (default: unpay.conf)</source>
-        <translation>Définir le fichier de configuration (défaut: unpay.conf)</translation>
+        <location filename="../mobicoinstrings.cpp" line="338"/>
+        <source>Specify configuration file (default: mobicoin.conf)</source>
+        <translation>Définir le fichier de configuration (défaut: mobicoin.conf)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="339"/>
+        <location filename="../mobicoinstrings.cpp" line="339"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Spécifier le délai d&apos;expiration de la connexion en millisecondes (par défaut : 5 000)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="340"/>
+        <location filename="../mobicoinstrings.cpp" line="340"/>
         <source>Specify data directory</source>
         <translation>Spécifier le répertoire de données</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="341"/>
+        <location filename="../mobicoinstrings.cpp" line="341"/>
         <source>Specify masternode configuration file (default: masternode.conf)</source>
         <translation>Définir le fichier de configuration du masternode (par défaut : masternode.conf)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="342"/>
-        <source>Specify pid file (default: unpayd.pid)</source>
-        <translation>Définir le fichier pid (défaut: unpayd.pid)</translation>
+        <location filename="../mobicoinstrings.cpp" line="342"/>
+        <source>Specify pid file (default: mobicoind.pid)</source>
+        <translation>Définir le fichier pid (défaut: mobicoind.pid)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="343"/>
+        <location filename="../mobicoinstrings.cpp" line="343"/>
         <source>Specify wallet file (within data directory)</source>
         <translation>Spécifiez le fichier de portefeuille (dans le répertoire de données)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="344"/>
+        <location filename="../mobicoinstrings.cpp" line="344"/>
         <source>Specify your own public address</source>
         <translation>Spécifier votre propre adresse publique</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="345"/>
+        <location filename="../mobicoinstrings.cpp" line="345"/>
         <source>Spend unconfirmed change when sending transactions (default: 1)</source>
         <translation>Dépenser la monnaie non confirmée lors de l&apos;envoi de transactions (par défaut : 1)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="346"/>
-        <source>Start Unpay Core Daemon</source>
-        <translation>Démarrer le démon Unpay Core</translation>
+        <location filename="../mobicoinstrings.cpp" line="346"/>
+        <source>Start Mobicoin Core Daemon</source>
+        <translation>Démarrer le démon Mobicoin Core</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="347"/>
+        <location filename="../mobicoinstrings.cpp" line="347"/>
         <source>System error: </source>
         <translation>Erreur système :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="348"/>
+        <location filename="../mobicoinstrings.cpp" line="348"/>
         <source>This help message</source>
         <translation>Ce message d&apos;aide</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="349"/>
+        <location filename="../mobicoinstrings.cpp" line="349"/>
         <source>This is intended for regression testing tools and app development.</source>
         <translation>Ceci est à l&apos;intention des outils de test de régression et du développement applicatif.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="350"/>
+        <location filename="../mobicoinstrings.cpp" line="350"/>
         <source>This is not a masternode.</source>
         <translation>Ceci n&apos;est pas un masternode.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="351"/>
+        <location filename="../mobicoinstrings.cpp" line="351"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Seuil de déconnexion des pairs présentant un mauvais comportement (par défaut : 100)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="352"/>
+        <location filename="../mobicoinstrings.cpp" line="352"/>
         <source>To use the %s option</source>
         <translation>Pour utiliser l&apos;option %s</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="353"/>
+        <location filename="../mobicoinstrings.cpp" line="353"/>
         <source>Transaction amount too small</source>
         <translation>Montant de la transaction trop bas</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="354"/>
+        <location filename="../mobicoinstrings.cpp" line="354"/>
         <source>Transaction amounts must be positive</source>
         <translation>Les montants de transaction doivent être positifs</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="355"/>
+        <location filename="../mobicoinstrings.cpp" line="355"/>
         <source>Transaction created successfully.</source>
         <translation>Transaction créée avec succès.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="356"/>
+        <location filename="../mobicoinstrings.cpp" line="356"/>
         <source>Transaction fees are too high.</source>
         <translation>Les frais de transaction sont trop élevés.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="357"/>
+        <location filename="../mobicoinstrings.cpp" line="357"/>
         <source>Transaction not valid.</source>
         <translation>Transaction invalide.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="358"/>
+        <location filename="../mobicoinstrings.cpp" line="358"/>
         <source>Transaction too large</source>
         <translation>Transaction trop volumineuse</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="359"/>
+        <location filename="../mobicoinstrings.cpp" line="359"/>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="360"/>
+        <location filename="../mobicoinstrings.cpp" line="360"/>
         <source>Unable to sign masternode payment winner, wrong key?</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="361"/>
+        <location filename="../mobicoinstrings.cpp" line="361"/>
         <source>Unable to sign spork message, wrong key?</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="362"/>
+        <location filename="../mobicoinstrings.cpp" line="362"/>
         <source>Unknown -socks proxy version requested: %i</source>
         <translation>Version inconnue de serveur mandataire -socks demandée : %i</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="363"/>
+        <location filename="../mobicoinstrings.cpp" line="363"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
         <translation>Réseau inconnu spécifié sur -onlynet : « %s »</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="364"/>
+        <location filename="../mobicoinstrings.cpp" line="364"/>
         <source>Upgrade wallet to latest format</source>
         <translation>Mettre à niveau le portefeuille vers le format le plus récent</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="365"/>
-        <source>Usage (deprecated, use unpay-cli):</source>
+        <location filename="../mobicoinstrings.cpp" line="365"/>
+        <source>Usage (deprecated, use mobicoin-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="366"/>
+        <location filename="../mobicoinstrings.cpp" line="366"/>
         <source>Usage:</source>
         <translation>Utilisation :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="367"/>
+        <location filename="../mobicoinstrings.cpp" line="367"/>
         <source>Use KeePass 2 integration using KeePassHttp plugin (default: 0)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="368"/>
+        <location filename="../mobicoinstrings.cpp" line="368"/>
         <source>Use N separate masternodes to anonymize funds  (2-8, default: 2)</source>
         <translation>Utiliser N masternodes différents pour anonymiser les fonds (2-8, par défaut : 2)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="369"/>
+        <location filename="../mobicoinstrings.cpp" line="369"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Utiliser OpenSSL (https) pour les connexions JSON-RPC</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="370"/>
+        <location filename="../mobicoinstrings.cpp" line="370"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Utiliser l&apos;UPnP pour mapper le port d&apos;écoute (par défaut : 0)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="371"/>
+        <location filename="../mobicoinstrings.cpp" line="371"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>Utiliser l&apos;UPnP pour mapper le port d&apos;écoute (par défaut : 1 lors de l&apos;écoute)</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="372"/>
+        <location filename="../mobicoinstrings.cpp" line="372"/>
         <source>Use the test network</source>
         <translation>Utiliser le réseau de test</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="373"/>
+        <location filename="../mobicoinstrings.cpp" line="373"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Nom d&apos;utilisateur pour les connexions JSON-RPC</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="374"/>
+        <location filename="../mobicoinstrings.cpp" line="374"/>
         <source>Value more than Darksend pool maximum allows.</source>
         <translation>Valeur supérieure au maximum autorisé par le pool.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="375"/>
+        <location filename="../mobicoinstrings.cpp" line="375"/>
         <source>Verifying blocks...</source>
         <translation>Vérification des blocs en cours...</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="376"/>
+        <location filename="../mobicoinstrings.cpp" line="376"/>
         <source>Verifying wallet...</source>
         <translation>Vérification du portefeuille en cours...</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="377"/>
+        <location filename="../mobicoinstrings.cpp" line="377"/>
         <source>Wait for RPC server to start</source>
         <translation>Attendre le démarrage du serveur RPC</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="378"/>
+        <location filename="../mobicoinstrings.cpp" line="378"/>
         <source>Wallet %s resides outside data directory %s</source>
         <translation>Le portefeuille %s réside en dehors du répertoire de données %s</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="379"/>
+        <location filename="../mobicoinstrings.cpp" line="379"/>
         <source>Wallet is locked.</source>
         <translation>Le Portefeuille est verrouillé.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="380"/>
-        <source>Wallet needed to be rewritten: restart Unpay to complete</source>
-        <translation>Le portefeuille devait être réécrit : redémarrer Unpay pour terminer l&apos;opération.</translation>
+        <location filename="../mobicoinstrings.cpp" line="380"/>
+        <source>Wallet needed to be rewritten: restart Mobicoin to complete</source>
+        <translation>Le portefeuille devait être réécrit : redémarrer Mobicoin pour terminer l&apos;opération.</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="381"/>
+        <location filename="../mobicoinstrings.cpp" line="381"/>
         <source>Wallet options:</source>
         <translation>Options du portefeuille :</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="382"/>
+        <location filename="../mobicoinstrings.cpp" line="382"/>
         <source>Warning</source>
         <translation>Avertissement</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="383"/>
+        <location filename="../mobicoinstrings.cpp" line="383"/>
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
         <translation>Attention : l&apos;argument obsolète -debugnet a été ignoré, utiliser -debug=net</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="384"/>
+        <location filename="../mobicoinstrings.cpp" line="384"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Avertissement : cette version est obsolète, une mise à niveau est nécessaire !</translation>
     </message>
@@ -5264,27 +5264,27 @@ Si le fichier n&apos;existe pas, créez-le avec les droits de lecture seule acco
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="385"/>
+        <location filename="../mobicoinstrings.cpp" line="385"/>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Vous devez reconstruire la base de données en utilisant -reindex afin de modifier -txindex</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="386"/>
+        <location filename="../mobicoinstrings.cpp" line="386"/>
         <source>Zapping all transactions from wallet...</source>
         <translation>Supprimer toutes les transactions du portefeuille...</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="387"/>
+        <location filename="../mobicoinstrings.cpp" line="387"/>
         <source>on startup</source>
         <translation>au démarrage</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="388"/>
+        <location filename="../mobicoinstrings.cpp" line="388"/>
         <source>version</source>
         <translation>version</translation>
     </message>
     <message>
-        <location filename="../unpaystrings.cpp" line="389"/>
+        <location filename="../mobicoinstrings.cpp" line="389"/>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat corrompu, la récupération a échoué</translation>
     </message>

@@ -3,27 +3,27 @@ include Makefile.include
 AM_CPPFLAGS += -I$(builddir)
 
 noinst_LIBRARIES = \
-  libunpay_server.a \
-  libunpay_common.a \
-  libunpay_cli.a
+  libmobicoin_server.a \
+  libmobicoin_common.a \
+  libmobicoin_cli.a
 if ENABLE_WALLET
-noinst_LIBRARIES += libunpay_wallet.a
+noinst_LIBRARIES += libmobicoin_wallet.a
 endif
 
 bin_PROGRAMS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += unpayd
+  bin_PROGRAMS += mobicoind
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += unpay-cli
+  bin_PROGRAMS += mobicoin-cli
 endif
 
 SUBDIRS = . $(BUILD_QT) $(BUILD_TEST)
 DIST_SUBDIRS = . qt test
 .PHONY: FORCE
-# unpay core #
+# mobicoin core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -109,7 +109,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 version.o: obj/build.h
 
-libunpay_server_a_SOURCES = \
+libmobicoin_server_a_SOURCES = \
   activemasternode.cpp \
   addrman.cpp \
   alert.cpp \
@@ -135,7 +135,7 @@ libunpay_server_a_SOURCES = \
   $(JSON_H) \
   $(BITCOIN_CORE_H)
 
-libunpay_wallet_a_SOURCES = \
+libmobicoin_wallet_a_SOURCES = \
   activemasternode.cpp \
   db.cpp \
   crypter.cpp \
@@ -146,7 +146,7 @@ libunpay_wallet_a_SOURCES = \
   keepass.cpp \
   $(BITCOIN_CORE_H)
 
-libunpay_common_a_SOURCES = \
+libmobicoin_common_a_SOURCES = \
   activemasternode.cpp \
   base58.cpp \
   allocators.cpp \
@@ -184,47 +184,47 @@ libunpay_common_a_SOURCES = \
   $(BITCOIN_CORE_H)
 
 if GLIBC_BACK_COMPAT
-libunpay_common_a_SOURCES += compat/glibc_compat.cpp
-libunpay_common_a_SOURCES += compat/glibcxx_compat.cpp
+libmobicoin_common_a_SOURCES += compat/glibc_compat.cpp
+libmobicoin_common_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-libunpay_cli_a_SOURCES = \
+libmobicoin_cli_a_SOURCES = \
   rpcclient.cpp \
   $(BITCOIN_CORE_H)
 
-nodist_libunpay_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
+nodist_libmobicoin_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
 #
 
-# unpayd binary #
-unpayd_LDADD = \
-  libunpay_server.a \
-  libunpay_cli.a \
-  libunpay_common.a \
+# mobicoind binary #
+mobicoind_LDADD = \
+  libmobicoin_server.a \
+  libmobicoin_cli.a \
+  libmobicoin_common.a \
   $(LIBLEVELDB) \
   $(LIBMEMENV)
 if ENABLE_WALLET
-unpayd_LDADD += libunpay_wallet.a
+mobicoind_LDADD += libmobicoin_wallet.a
 endif
-unpayd_SOURCES = unpayd.cpp
+mobicoind_SOURCES = mobicoind.cpp
 #
 
 if TARGET_WINDOWS
-unpayd_SOURCES += unpayd-res.rc
+mobicoind_SOURCES += mobicoind-res.rc
 endif
 
 AM_CPPFLAGS += $(BDB_CPPFLAGS)
-unpayd_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
+mobicoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
 
-# unpay-cli binary #
-unpay_cli_LDADD = \
-  libunpay_cli.a \
-  libunpay_common.a \
+# mobicoin-cli binary #
+mobicoin_cli_LDADD = \
+  libmobicoin_cli.a \
+  libmobicoin_common.a \
   $(BOOST_LIBS)
-unpay_cli_SOURCES = unpay-cli.cpp
+mobicoin_cli_SOURCES = mobicoin-cli.cpp
 #
 
 if TARGET_WINDOWS
-unpay_cli_SOURCES += unpay-cli-res.rc
+mobicoin_cli_SOURCES += mobicoin-cli-res.rc
 endif
 
 # NOTE: This dependency is not strictly necessary, but without it make may try to build both in parallel, which breaks the LevelDB build system in a race
@@ -235,7 +235,7 @@ leveldb/%.a:
 	  CC="$(CC)" PLATFORM=$(TARGET_OS) AR="$(AR)" $(LEVELDB_TARGET_FLAGS) \
 	  OPT="$(CXXFLAGS) $(CPPFLAGS)"
 
-qt/unpaystrings.cpp: $(libunpay_server_a_SOURCES) $(libunpay_common_a_SOURCES) $(libunpay_cli_a_SOURCES)
+qt/mobicoinstrings.cpp: $(libmobicoin_server_a_SOURCES) $(libmobicoin_common_a_SOURCES) $(libmobicoin_cli_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	@cd $(top_srcdir); XGETTEXT=$(XGETTEXT) share/qt/extract_strings_qt.py
 

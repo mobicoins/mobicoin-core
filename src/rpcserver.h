@@ -63,7 +63,7 @@ public:
 };
 
 /**
- * Unpay RPC command dispatcher.
+ * Mobicoin RPC command dispatcher.
  */
 class CRPCTable
 {
