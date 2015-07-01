@@ -1493,9 +1493,6 @@ int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
     if(nHeight < 90) {
         nSubsidy = 1000000000;
     }else{
-        // 2222222/(((x+2600)/9)^2)
-        // double dDiff = ConvertBitsToDouble(nBits);
-        // nSubsidy = (2222222.0 / (pow((dDiff+2600.0)/9.0,2.0)));
         nSubsidy = 0;
     }
 
