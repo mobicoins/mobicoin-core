@@ -276,7 +276,7 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="113"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MCP&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MBC&lt;/b&gt;!</source>
         <translation>Ostrzeżenie: Jeśli zaszyfrujesz swój portfel i zgubisz swoje hasło, &lt;b&gt;STRACISZ WSZYSTKIE UNPY&lt;/b&gt;</translation>
     </message>
     <message>
@@ -1136,13 +1136,13 @@ Adres: %4
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="78"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 MCP</source>
-        <translation>Użyj 2 oddzielnych masternodów aby wymieszać środki max. do 1000 MCP</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 MBC</source>
+        <translation>Użyj 2 oddzielnych masternodów aby wymieszać środki max. do 1000 MBC</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="91"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 MCP</source>
-        <translation>Użyj 8 oddzielnych masternodów aby wymieszać środki max. do 1000 MCP</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 MBC</source>
+        <translation>Użyj 8 oddzielnych masternodów aby wymieszać środki max. do 1000 MBC</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="104"/>
@@ -1151,18 +1151,18 @@ Adres: %4
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="117"/>
-        <source>This option is the quickest and will cost about ~0.025 MCP to anonymize 1000 MCP</source>
-        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 MCP za zanonimizowanie 1000 MCP</translation>
+        <source>This option is the quickest and will cost about ~0.025 MBC to anonymize 1000 MBC</source>
+        <translation>Ta opcja jest najszybsza i kosztuje około 0.025 MBC za zanonimizowanie 1000 MBC</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="130"/>
-        <source>This option is moderately fast and will cost about 0.05 MCP to anonymize 1000 MCP</source>
-        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 MCP za zanonimizowanie 1000 MCP</translation>
+        <source>This option is moderately fast and will cost about 0.05 MBC to anonymize 1000 MBC</source>
+        <translation>Ta opcja jest w miarę szybka i kosztuje około 0.05 MBC za zanonimizowanie 1000 MBC</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="156"/>
-        <source>0.1 MCP per 1000 MCP you anonymize.</source>
-        <translation>0.1 MCP za każde 1000 MCP które zanonimizujesz.</translation>
+        <source>0.1 MBC per 1000 MBC you anonymize.</source>
+        <translation>0.1 MBC za każde 1000 MBC które zanonimizujesz.</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="143"/>
@@ -1810,8 +1810,8 @@ https://www.transifex.com/projects/p/mobicoin/</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="349"/>
-        <source>0 MCP</source>
-        <translation>0 MCP</translation>
+        <source>0 MBC</source>
+        <translation>0 MBC</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="356"/>
@@ -1820,8 +1820,8 @@ https://www.transifex.com/projects/p/mobicoin/</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="363"/>
-        <source>0 MCP / 0 Rounds</source>
-        <translation>0 MCP / 0 Rund</translation>
+        <source>0 MBC / 0 Rounds</source>
+        <translation>0 MBC / 0 Rund</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="370"/>
@@ -3871,8 +3871,8 @@ https://www.transifex.com/projects/p/mobicoin/</translation>
     </message>
     <message numerus="yes">
         <location filename="../walletmodel.cpp" line="271"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n MCP.</source>
-        <translation><numerusform>InstantX nie obsługuje jeszcze tak wysokiej ilości. Transakcja jest obecnie ograniczona do %n MCP</numerusform><numerusform>InstantX nie obsługuje jeszcze tak wysokich ilości. Transakcje są obecnie ograniczone do %n MCP</numerusform><numerusform>InstantX nie obsługuje jeszcze tak wysokich ilości. Transakcje są obecnie ograniczone do %n MCP</numerusform></translation>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n MBC.</source>
+        <translation><numerusform>InstantX nie obsługuje jeszcze tak wysokiej ilości. Transakcja jest obecnie ograniczona do %n MBC</numerusform><numerusform>InstantX nie obsługuje jeszcze tak wysokich ilości. Transakcje są obecnie ograniczone do %n MBC</numerusform><numerusform>InstantX nie obsługuje jeszcze tak wysokich ilości. Transakcje są obecnie ograniczone do %n MBC</numerusform></translation>
     </message>
 </context>
 <context>
@@ -4141,8 +4141,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <location filename="../mobicoinstrings.cpp" line="138"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 MCP.</source>
-        <translation>Nie znaleziono wystarczającej ilości nie zdenominowanych środków Darksend dla tej transakcji, które nie równają się 1000 MCP</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 MBC.</source>
+        <translation>Nie znaleziono wystarczającej ilości nie zdenominowanych środków Darksend dla tej transakcji, które nie równają się 1000 MBC</translation>
     </message>
     <message>
         <location filename="../mobicoinstrings.cpp" line="141"/>

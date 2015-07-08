@@ -26,10 +26,10 @@ public:
      */
     enum Unit
     {
-        kMCP,
-        MCP,
-        mMCP,
-        uMCP,
+        kMBC,
+        MBC,
+        mMBC,
+        uMBC,
         //duffs
     };
 

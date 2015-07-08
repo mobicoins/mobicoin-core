@@ -278,7 +278,7 @@ Käännös päivitetty: 7.4.2015 by AjM.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="113"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MCP&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MBC&lt;/b&gt;!</source>
         <translation>Varoitus: Jos salaat lompakon ja unohdat salasanan, &lt;b&gt;MENETÄT KAIKKI UNPisi&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -1138,12 +1138,12 @@ Osoite: %4
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="78"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 MCP</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000 MBC</source>
         <translation>Käytä 2 erillistä masternodea sekoittaaksesi varoja</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="91"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 MCP</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000 MBC</source>
         <translation>Käytä 8 erillistä masternodea sekoittaaksesi varoja</translation>
     </message>
     <message>
@@ -1153,18 +1153,18 @@ Osoite: %4
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="117"/>
-        <source>This option is the quickest and will cost about ~0.025 MCP to anonymize 1000 MCP</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 MCP kun anonymisoidaan 1000 MCP</translation>
+        <source>This option is the quickest and will cost about ~0.025 MBC to anonymize 1000 MBC</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 MBC kun anonymisoidaan 1000 MBC</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="130"/>
-        <source>This option is moderately fast and will cost about 0.05 MCP to anonymize 1000 MCP</source>
-        <translation>Tämä vaihtoehto on keskinopea ja maksaa noin ~0.05 MCP kun anonymisoidaan 1000 MCP</translation>
+        <source>This option is moderately fast and will cost about 0.05 MBC to anonymize 1000 MBC</source>
+        <translation>Tämä vaihtoehto on keskinopea ja maksaa noin ~0.05 MBC kun anonymisoidaan 1000 MBC</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="156"/>
-        <source>0.1 MCP per 1000 MCP you anonymize.</source>
-        <translation>0.1 MCP maksu per 1000 MCP jonka anonymisoit.</translation>
+        <source>0.1 MBC per 1000 MBC you anonymize.</source>
+        <translation>0.1 MBC maksu per 1000 MBC jonka anonymisoit.</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="143"/>
@@ -1813,8 +1813,8 @@ https://www.transifex.com/projects/p/mobicoin/</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="349"/>
-        <source>0 MCP</source>
-        <translation>0 MCP</translation>
+        <source>0 MBC</source>
+        <translation>0 MBC</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="356"/>
@@ -1823,8 +1823,8 @@ https://www.transifex.com/projects/p/mobicoin/</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="363"/>
-        <source>0 MCP / 0 Rounds</source>
-        <translation>0 MCP / 0 Kierrosta</translation>
+        <source>0 MBC / 0 Rounds</source>
+        <translation>0 MBC / 0 Kierrosta</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="370"/>
@@ -3874,8 +3874,8 @@ https://www.transifex.com/projects/p/mobicoin/</translation>
     </message>
     <message numerus="yes">
         <location filename="../walletmodel.cpp" line="271"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n MCP.</source>
-        <translation><numerusform>Instantx ei tue näin korkeaa määrää vielä. Siirtotapahtumat on tällä hetkellä rajoitettu %n MCP.</numerusform><numerusform>Instantx ei tue näin korkeaa lähetysmäärää vielä. Siirtotapahtumat on tällä hetkellä rajoitettu %n MCP.</numerusform></translation>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n MBC.</source>
+        <translation><numerusform>Instantx ei tue näin korkeaa määrää vielä. Siirtotapahtumat on tällä hetkellä rajoitettu %n MBC.</numerusform><numerusform>Instantx ei tue näin korkeaa lähetysmäärää vielä. Siirtotapahtumat on tällä hetkellä rajoitettu %n MBC.</numerusform></translation>
     </message>
 </context>
 <context>
@@ -4145,8 +4145,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;Mobicoin Hälytys&quot; admin@
     </message>
     <message>
         <location filename="../mobicoinstrings.cpp" line="138"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 MCP.</source>
-        <translation>Ei tarpeeksi Darksend ei-anonymisoituja varoja tälle siirtotapahtumalle, joka ei ole 1000 MCP.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 MBC.</source>
+        <translation>Ei tarpeeksi Darksend ei-anonymisoituja varoja tälle siirtotapahtumalle, joka ei ole 1000 MBC.</translation>
     </message>
     <message>
         <location filename="../mobicoinstrings.cpp" line="141"/>

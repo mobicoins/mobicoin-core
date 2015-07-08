@@ -137,7 +137,7 @@ QT_TRANSLATE_NOOP("mobicoin-core", ""
 "Unable to locate enough Darksend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("mobicoin-core", ""
 "Unable to locate enough Darksend non-denominated funds for this transaction "
-"that are not equal 1000 MCP."),
+"that are not equal 1000 MBC."),
 QT_TRANSLATE_NOOP("mobicoin-core", ""
 "Unable to locate enough Darksend non-denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("mobicoin-core", ""
