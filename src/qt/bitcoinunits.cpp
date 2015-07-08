@@ -15,10 +15,11 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
+    unitlist.append(kMCP);
     unitlist.append(MCP);
     unitlist.append(mMCP);
     unitlist.append(uMCP);
-    unitlist.append(duffs);
+    //unitlist.append(duffs);
     return unitlist;
 }
 
@@ -26,10 +27,11 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
+    case kMCP:
     case MCP:
     case mMCP:
     case uMCP:
-    case duffs:
+    //case duffs:
         return true;
     default:
         return false;
@@ -42,10 +44,11 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case MCP: return QString("MCP");
+            case kMCP: return QString::fromUtf8("kMCP");
+            case MCP:  return QString("MCP");
             case mMCP: return QString("mMCP");
             case uMCP: return QString::fromUtf8("μMCP");
-            case duffs: return QString::fromUtf8("duffs");
+            //case duffs: return QString::fromUtf8("duffs");
             default: return QString("???");
         }
     }
@@ -53,10 +56,11 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case MCP: return QString("tMCP");
+            case kMCP: return QString::fromUtf8("tkMCP");
+            case MCP:  return QString("tMCP");
             case mMCP: return QString("mtMCP");
             case uMCP: return QString::fromUtf8("μtMCP");
-            case duffs: return QString::fromUtf8("tduffs");
+            //case duffs: return QString::fromUtf8("tduffs");
             default: return QString("???");
         }
     }
@@ -68,10 +72,11 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case MCP: return QString("Mobicoin");
+            case kMCP: return QString("Killo-Mobicoin (1,000)");
+            case MCP:  return QString("Mobicoin");
             case mMCP: return QString("Milli-Mobicoin (1 / 1,000)");
             case uMCP: return QString("Micro-Mobicoin (1 / 1,000,000)");
-            case duffs: return QString("Ten Nano-Mobicoin (1 / 100,000,000)");
+            //case duffs: return QString("Ten Nano-Mobicoin (1 / 100,000,000)");
             default: return QString("???");
         }
     }
@@ -79,10 +84,11 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case MCP: return QString("TestDashs");
+            case kMCP: return QString("Killo-TestMobicoin (1,000)");
+            case MCP:  return QString("TestDashs");
             case mMCP: return QString("Milli-TestDash (1 / 1,000)");
             case uMCP: return QString("Micro-TestDash (1 / 1,000,000)");
-            case duffs: return QString("Ten Nano-TestDash (1 / 100,000,000)");
+            //case duffs: return QString("Ten Nano-TestDash (1 / 100,000,000)");
             default: return QString("???");
         }
     }
@@ -92,10 +98,10 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case MCP:  return 100000000;
-    case mMCP: return 100000;
-    case uMCP: return 100;
-    case duffs: return 1;
+    case kMCP: return 100000000;
+    case MCP:  return 100000;
+    case mMCP: return 100;
+    case uMCP: return 1;
     default:   return 100000000;
     }
 }
@@ -104,10 +110,10 @@ qint64 BitcoinUnits::maxAmount(int unit)
 {
     switch(unit)
     {
-    case MCP:   return Q_INT64_C(90000000000);
-    case mMCP:  return Q_INT64_C(90000000000000);
-    case uMCP:  return Q_INT64_C(90000000000000000);
-    case duffs: return Q_INT64_C(9000000000000000000);
+    case kMCP: return Q_INT64_C(90000000000);
+    case MCP:  return Q_INT64_C(90000000000000);
+    case mMCP: return Q_INT64_C(90000000000000000);
+    case uMCP: return Q_INT64_C(9000000000000000000);
     default:   return 0;
     }
 }
@@ -116,10 +122,10 @@ int BitcoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case MCP: return 11;  //            90,000,000,000 (# digits, without commas)
-    case mMCP: return 14; //        90,000,000,000,000
-    case uMCP: return 17; //    90,000,000,000,000,000
-    case duffs: return 19;// 9,000,000,000,000,000,000
+    case kMCP: return 11;  //            90,000,000,000 (# digits, without commas)
+    case MCP:  return 14; //        90,000,000,000,000
+    case mMCP: return 17; //    90,000,000,000,000,000
+    case uMCP: return 19;// 9,000,000,000,000,000,000
     default: return 0;
     }
 }
@@ -128,10 +134,10 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case MCP: return 8;
-    case mMCP: return 5;
-    case uMCP: return 2;
-    case duffs: return 0;
+    case kMCP: return 8;
+    case MCP:  return 5;
+    case mMCP: return 2;
+    case uMCP: return 0;
     default: return 0;
     }
 }

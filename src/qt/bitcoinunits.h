@@ -26,10 +26,11 @@ public:
      */
     enum Unit
     {
+        kMCP,
         MCP,
         mMCP,
         uMCP,
-        duffs
+        //duffs
     };
 
     //! @name Static API
